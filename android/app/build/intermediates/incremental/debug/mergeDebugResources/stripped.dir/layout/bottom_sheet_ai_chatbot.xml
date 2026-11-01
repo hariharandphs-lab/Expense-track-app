@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@drawable/bg_bottom_sheet_chat"
+    android:paddingBottom="16dp">
+
+    <!-- DRAG HANDLE -->
+    <View
+        android:layout_width="40dp"
+        android:layout_height="4dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="12dp"
+        android:background="@drawable/bg_chat_drag_handle" />
+
+    <!-- HEADER -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:paddingStart="20dp"
+        android:paddingEnd="16dp"
+        android:paddingBottom="10dp">
+
+        <ImageView
+            android:id="@+id/ivBotAvatar"
+            android:layout_width="38dp"
+            android:layout_height="38dp"
+            android:background="@drawable/bg_kpi_icon"
+            android:padding="2dp"
+            android:scaleType="fitCenter"
+            android:src="@drawable/shorekeeper_sitting" />
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginStart="12dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Shorekeeper AI"
+                android:textColor="@color/chat_header_title"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="● Multilingual • Voice &amp; Text"
+                android:textColor="@color/chat_header_subtitle"
+                android:textSize="11sp" />
+        </LinearLayout>
+
+        <!-- TTS AUDIO TOGGLE -->
+        <ImageButton
+            android:id="@+id/btnTtsToggle"
+            android:layout_width="36dp"
+            android:layout_height="36dp"
+            android:layout_marginEnd="6dp"
+            android:background="?attr/selectableItemBackgroundBorderless"
+            android:contentDescription="Toggle Voice Audio Reply"
+            android:src="@drawable/ic_volume_up"
+            app:tint="@color/chat_tts_btn_tint" />
+
+        <!-- CLOSE BUTTON -->
+        <ImageButton
+            android:id="@+id/btnCloseChat"
+            android:layout_width="36dp"
+            android:layout_height="36dp"
+            android:background="?attr/selectableItemBackgroundBorderless"
+            android:src="@android:drawable/ic_menu_close_clear_cancel"
+            app:tint="@color/chat_close_btn_tint" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/chat_divider" />
+
+    <!-- CHAT MESSAGES RECYCLERVIEW -->
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rvChatMessages"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:minHeight="380dp"
+        android:paddingStart="16dp"
+        android:paddingEnd="16dp"
+        android:paddingTop="8dp"
+        android:paddingBottom="8dp"
+        android:clipToPadding="false" />
+
+    <!-- INPUT CONTAINER -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:paddingStart="16dp"
+        android:paddingEnd="16dp">
+
+        <!-- VOICE INPUT BUTTON -->
+        <ImageButton
+            android:id="@+id/btnVoiceInput"
+            android:layout_width="44dp"
+            android:layout_height="44dp"
+            android:background="@drawable/bg_chat_action_button"
+            android:src="@drawable/ic_mic"
+            android:contentDescription="Voice Input"
+            app:tint="@color/chat_action_btn_tint" />
+
+        <!-- TEXT INPUT -->
+        <EditText
+            android:id="@+id/etChatInput"
+            android:layout_width="0dp"
+            android:layout_height="44dp"
+            android:layout_weight="1"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            android:background="@drawable/bg_chat_input"
+            android:hint="Ask in English, தமிழ், or Tanglish..."
+            android:textColorHint="@color/chat_input_hint"
+            android:textColor="@color/chat_input_text"
+            android:textSize="14sp"
+            android:paddingStart="14dp"
+            android:paddingEnd="14dp"
+            android:imeOptions="actionSend"
+            android:inputType="textCapSentences" />
+
+        <!-- SEND BUTTON -->
+        <ImageButton
+            android:id="@+id/btnSendMessage"
+            android:layout_width="44dp"
+            android:layout_height="44dp"
+            android:background="@drawable/bg_chat_action_button"
+            android:src="@drawable/ic_send"
+            android:contentDescription="Send Question"
+            app:tint="@color/chat_action_btn_tint" />
+    </LinearLayout>
+
+</LinearLayout>

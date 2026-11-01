@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.smartexpense.android.util.ExpenseAiEngineTest" tests="10" skipped="0" failures="0" errors="0" timestamp="2026-10-25T16:43:11.369Z" hostname="DELL" time="0.022">
+  <properties/>
+  <testcase name="testZeroMatchingExpenses_doesNotHallucinate" classname="com.smartexpense.android.util.ExpenseAiEngineTest" time="0.007"/>
+  <testcase name="testLanguageDetection_english" classname="com.smartexpense.android.util.ExpenseAiEngineTest" time="0.0"/>
+  <testcase name="testMultilingualResponse_tamil" classname="com.smartexpense.android.util.ExpenseAiEngineTest" time="0.006"/>
+  <testcase name="testOpticalQuery_strictlyExcludesMedicine" classname="com.smartexpense.android.util.ExpenseAiEngineTest" time="0.002"/>
+  <testcase name="testLanguageDetection_tanglish" classname="com.smartexpense.android.util.ExpenseAiEngineTest" time="0.0"/>
+  <testcase name="testLanguageDetection_tamilScript" classname="com.smartexpense.android.util.ExpenseAiEngineTest" time="0.001"/>
+  <testcase name="testGreeting_friendlyShorekeeperIntro" classname="com.smartexpense.android.util.ExpenseAiEngineTest" time="0.0"/>
+  <testcase name="testMedicineQuery_strictlyExcludesOpticalShop" classname="com.smartexpense.android.util.ExpenseAiEngineTest" time="0.002"/>
+  <testcase name="testConversationalFollowUp" classname="com.smartexpense.android.util.ExpenseAiEngineTest" time="0.002"/>
+  <testcase name="testMultilingualResponse_tanglish" classname="com.smartexpense.android.util.ExpenseAiEngineTest" time="0.002"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

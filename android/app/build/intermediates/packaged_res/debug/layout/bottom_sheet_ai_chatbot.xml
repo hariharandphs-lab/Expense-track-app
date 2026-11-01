@@ -1,0 +1,269 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@drawable/bg_bottom_sheet_chat"
+    android:paddingBottom="16dp">
+
+    <!-- DRAG HANDLE -->
+    <View
+        android:layout_width="40dp"
+        android:layout_height="4dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="12dp"
+        android:background="#40E8F3EF" />
+
+    <!-- HEADER -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:paddingStart="20dp"
+        android:paddingEnd="16dp"
+        android:paddingBottom="10dp">
+
+        <ImageView
+            android:id="@+id/ivBotAvatar"
+            android:layout_width="38dp"
+            android:layout_height="38dp"
+            android:background="@drawable/bg_kpi_icon"
+            android:padding="2dp"
+            android:scaleType="fitCenter"
+            android:src="@drawable/shorekeeper_sitting" />
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginStart="12dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Shorekeeper AI"
+                android:textColor="#E8F3EF"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="● Multilingual • Voice &amp; Text"
+                android:textColor="#10B981"
+                android:textSize="11sp" />
+        </LinearLayout>
+
+        <!-- TTS AUDIO TOGGLE -->
+        <ImageButton
+            android:id="@+id/btnTtsToggle"
+            android:layout_width="36dp"
+            android:layout_height="36dp"
+            android:layout_marginEnd="6dp"
+            android:background="?attr/selectableItemBackgroundBorderless"
+            android:contentDescription="Toggle Voice Audio Reply"
+            android:src="@drawable/ic_volume_up"
+            app:tint="#53CFB1" />
+
+        <!-- CLOSE BUTTON -->
+        <ImageButton
+            android:id="@+id/btnCloseChat"
+            android:layout_width="36dp"
+            android:layout_height="36dp"
+            android:background="?attr/selectableItemBackgroundBorderless"
+            android:src="@android:drawable/ic_menu_close_clear_cancel"
+            app:tint="#829B95" />
+    </LinearLayout>
+
+    <!-- LANGUAGE SELECTION CHIPS -->
+    <HorizontalScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scrollbars="none"
+        android:paddingStart="16dp"
+        android:paddingEnd="16dp"
+        android:paddingBottom="8dp">
+
+        <com.google.android.material.chip.ChipGroup
+            android:id="@+id/chipGroupChatLanguage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:singleLine="true"
+            app:singleSelection="true">
+
+            <com.google.android.material.chip.Chip
+                android:id="@+id/chipLangEn"
+                style="@style/Widget.Material3.Chip.Filter"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:checked="true"
+                android:text="🇬🇧 English"
+                android:textColor="#E8F3EF"
+                app:chipBackgroundColor="#2653CFB1" />
+
+            <com.google.android.material.chip.Chip
+                android:id="@+id/chipLangTa"
+                style="@style/Widget.Material3.Chip.Filter"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="🇮🇳 தமிழ்"
+                android:textColor="#E8F3EF"
+                app:chipBackgroundColor="#2653CFB1" />
+
+            <com.google.android.material.chip.Chip
+                android:id="@+id/chipLangTanglish"
+                style="@style/Widget.Material3.Chip.Filter"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="💬 Tanglish"
+                android:textColor="#E8F3EF"
+                app:chipBackgroundColor="#2653CFB1" />
+
+            <com.google.android.material.chip.Chip
+                android:id="@+id/chipLangHi"
+                style="@style/Widget.Material3.Chip.Filter"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="🇮🇳 हिंदी"
+                android:textColor="#E8F3EF"
+                app:chipBackgroundColor="#2653CFB1" />
+        </com.google.android.material.chip.ChipGroup>
+    </HorizontalScrollView>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#14B4DBCF" />
+
+    <!-- CHAT MESSAGES RECYCLERVIEW -->
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rvChatMessages"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:paddingStart="16dp"
+        android:paddingEnd="16dp"
+        android:paddingTop="8dp"
+        android:paddingBottom="8dp"
+        android:clipToPadding="false" />
+
+    <!-- QUICK PROMPT CHIPS -->
+    <HorizontalScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scrollbars="none"
+        android:paddingStart="16dp"
+        android:paddingEnd="16dp"
+        android:paddingBottom="8dp">
+
+        <com.google.android.material.chip.ChipGroup
+            android:id="@+id/chipGroupSuggestions"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:singleLine="true">
+
+            <com.google.android.material.chip.Chip
+                android:id="@+id/chipAddTea"
+                style="@style/Widget.Material3.Chip.Assist"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="⚡ Add: Tea 20"
+                android:textColor="#E8F3EF"
+                app:chipBackgroundColor="#2653CFB1"
+                app:chipStrokeColor="#4D53CFB1" />
+
+            <com.google.android.material.chip.Chip
+                android:id="@+id/chipAddSwiggy"
+                style="@style/Widget.Material3.Chip.Assist"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="⚡ Swiggy ku 450"
+                android:textColor="#E8F3EF"
+                app:chipBackgroundColor="#2653CFB1"
+                app:chipStrokeColor="#4D53CFB1" />
+
+            <com.google.android.material.chip.Chip
+                android:id="@+id/chipSpentMost"
+                style="@style/Widget.Material3.Chip.Assist"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="🏆 Spent the most"
+                android:textColor="#E8F3EF"
+                app:chipBackgroundColor="#2653CFB1"
+                app:chipStrokeColor="#4D53CFB1" />
+
+            <com.google.android.material.chip.Chip
+                android:id="@+id/chipFoodMonth"
+                style="@style/Widget.Material3.Chip.Assist"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="🍔 Food this month"
+                android:textColor="#E8F3EF"
+                app:chipBackgroundColor="#2653CFB1"
+                app:chipStrokeColor="#4D53CFB1" />
+
+            <com.google.android.material.chip.Chip
+                android:id="@+id/chipExpensesToday"
+                style="@style/Widget.Material3.Chip.Assist"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="💸 Expenses today"
+                android:textColor="#E8F3EF"
+                app:chipBackgroundColor="#2653CFB1"
+                app:chipStrokeColor="#4D53CFB1" />
+        </com.google.android.material.chip.ChipGroup>
+    </HorizontalScrollView>
+
+    <!-- INPUT CONTAINER -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:paddingStart="16dp"
+        android:paddingEnd="16dp">
+
+        <!-- VOICE INPUT BUTTON -->
+        <ImageButton
+            android:id="@+id/btnVoiceInput"
+            android:layout_width="44dp"
+            android:layout_height="44dp"
+            android:background="@drawable/bg_capture_button"
+            android:src="@drawable/ic_mic"
+            android:contentDescription="Voice Input"
+            app:tint="#FFFFFF" />
+
+        <!-- TEXT INPUT -->
+        <EditText
+            android:id="@+id/etChatInput"
+            android:layout_width="0dp"
+            android:layout_height="44dp"
+            android:layout_weight="1"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            android:background="@drawable/bg_chat_bubble_bot"
+            android:hint="Ask or speak: 'Add tea 20'..."
+            android:textColorHint="#829B95"
+            android:textColor="#E8F3EF"
+            android:textSize="14sp"
+            android:paddingStart="14dp"
+            android:paddingEnd="14dp"
+            android:imeOptions="actionSend"
+            android:inputType="textCapSentences" />
+
+        <!-- SEND BUTTON -->
+        <ImageButton
+            android:id="@+id/btnSendMessage"
+            android:layout_width="44dp"
+            android:layout_height="44dp"
+            android:background="@drawable/bg_capture_button"
+            android:src="@drawable/ic_send"
+            android:contentDescription="Send Question"
+            app:tint="#FFFFFF" />
+    </LinearLayout>
+
+</LinearLayout>

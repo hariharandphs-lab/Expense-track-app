@@ -1,0 +1,94 @@
+[
+    {
+        "merged": "C:\\Users\\Hariharan\\.gradle\\daemon\\8.13\\com.smartexpense.android.app-mergeDebugResources-92:\\layout\\bottom_sheet_forgot_password.xml",
+        "source": "C:\\Users\\Hariharan\\.gradle\\daemon\\8.13\\com.smartexpense.android.app-main-95:\\layout\\bottom_sheet_forgot_password.xml"
+    },
+    {
+        "merged": "C:\\Users\\Hariharan\\.gradle\\daemon\\8.13\\com.smartexpense.android.app-mergeDebugResources-92:\\layout\\dialog_set_budget.xml",
+        "source": "C:\\Users\\Hariharan\\.gradle\\daemon\\8.13\\com.smartexpense.android.app-main-95:\\layout\\dialog_set_budget.xml"
+    },
+    {
+        "merged": "C:\\Users\\Hariharan\\.gradle\\daemon\\8.13\\com.smartexpense.android.app-mergeDebugResources-92:\\layout\\activity_login.xml",
+        "source": "C:\\Users\\Hariharan\\.gradle\\daemon\\8.13\\com.smartexpense.android.app-main-95:\\layout\\activity_login.xml"
+    },
+    {
+        "merged": "C:\\Users\\Hariharan\\.gradle\\daemon\\8.13\\com.smartexpense.android.app-mergeDebugResources-92:\\layout\\item_expense.xml",
+        "source": "C:\\Users\\Hariharan\\.gradle\\daemon\\8.13\\com.smartexpense.android.app-main-95:\\layout\\item_expense.xml"
+    },
+    {
+        "merged": "C:\\Users\\Hariharan\\.gradle\\daemon\\8.13\\com.smartexpense.android.app-mergeDebugResources-92:\\layout\\activity_add_expense.xml",
+        "source": "C:\\Users\\Hariharan\\.gradle\\daemon\\8.13\\com.smartexpense.android.app-main-95:\\layout\\activity_add_expense.xml"
+    },
+    {
+        "merged": "C:\\Users\\Hariharan\\.gradle\\daemon\\8.13\\com.smartexpense.android.app-mergeDebugResources-92:\\layout\\fragment_settings.xml",
+        "source": "C:\\Users\\Hariharan\\.gradle\\daemon\\8.13\\com.smartexpense.android.app-main-95:\\layout\\fragment_settings.xml"
+    },
+    {
+        "merged": "C:\\Users\\Hariharan\\.gradle\\daemon\\8.13\\com.smartexpense.android.app-mergeDebugResources-92:\\layout\\item_category_budget.xml",
+        "source": "C:\\Users\\Hariharan\\.gradle\\daemon\\8.13\\com.smartexpense.android.app-main-95:\\layout\\item_category_budget.xml"
+    },
+    {
+        "merged": "C:\\Users\\Hariharan\\.gradle\\daemon\\8.13\\com.smartexpense.android.app-mergeDebugResources-92:\\layout\\item_onboarding_page.xml",
+        "source": "C:\\Users\\Hariharan\\.gradle\\daemon\\8.13\\com.smartexpense.android.app-main-95:\\layout\\item_onboarding_page.xml"
+    },
+    {
+        "merged": "C:\\Users\\Hariharan\\.gradle\\daemon\\8.13\\com.smartexpense.android.app-mergeDebugResources-92:\\layout\\fragment_expenses.xml",
+        "source": "C:\\Users\\Hariharan\\.gradle\\daemon\\8.13\\com.smartexpense.android.app-main-95:\\layout\\fragment_expenses.xml"
+    },
+    {
+        "merged": "C:\\Users\\Hariharan\\.gradle\\daemon\\8.13\\com.smartexpense.android.app-mergeDebugResources-92:\\layout\\activity_ocr_scanner.xml",
+        "source": "C:\\Users\\Hariharan\\.gradle\\daemon\\8.13\\com.smartexpense.android.app-main-95:\\layout\\activity_ocr_scanner.xml"
+    },
+    {
+        "merged": "C:\\Users\\Hariharan\\.gradle\\daemon\\8.13\\com.smartexpense.android.app-mergeDebugResources-92:\\layout\\fragment_budget.xml",
+        "source": "C:\\Users\\Hariharan\\.gradle\\daemon\\8.13\\com.smartexpense.android.app-main-95:\\layout\\fragment_budget.xml"
+    },
+    {
+        "merged": "C:\\Users\\Hariharan\\.gradle\\daemon\\8.13\\com.smartexpense.android.app-mergeDebugResources-92:\\layout\\fragment_reports.xml",
+        "source": "C:\\Users\\Hariharan\\.gradle\\daemon\\8.13\\com.smartexpense.android.app-main-95:\\layout\\fragment_reports.xml"
+    },
+    {
+        "merged": "C:\\Users\\Hariharan\\.gradle\\daemon\\8.13\\com.smartexpense.android.app-mergeDebugResources-92:\\layout\\activity_voice_entry.xml",
+        "source": "C:\\Users\\Hariharan\\.gradle\\daemon\\8.13\\com.smartexpense.android.app-main-95:\\layout\\activity_voice_entry.xml"
+    },
+    {
+        "merged": "C:\\Users\\Hariharan\\.gradle\\daemon\\8.13\\com.smartexpense.android.app-mergeDebugResources-92:\\layout\\item_chat_message.xml",
+        "source": "C:\\Users\\Hariharan\\.gradle\\daemon\\8.13\\com.smartexpense.android.app-main-95:\\layout\\item_chat_message.xml"
+    },
+    {
+        "merged": "C:\\Users\\Hariharan\\.gradle\\daemon\\8.13\\com.smartexpense.android.app-mergeDebugResources-92:\\layout\\bottom_sheet_ai_chatbot.xml",
+        "source": "C:\\Users\\Hariharan\\.gradle\\daemon\\8.13\\com.smartexpense.android.app-main-95:\\layout\\bottom_sheet_ai_chatbot.xml"
+    },
+    {
+        "merged": "C:\\Users\\Hariharan\\.gradle\\daemon\\8.13\\com.smartexpense.android.app-mergeDebugResources-92:\\layout\\view_shorekeeper_companion.xml",
+        "source": "C:\\Users\\Hariharan\\.gradle\\daemon\\8.13\\com.smartexpense.android.app-main-95:\\layout\\view_shorekeeper_companion.xml"
+    },
+    {
+        "merged": "C:\\Users\\Hariharan\\.gradle\\daemon\\8.13\\com.smartexpense.android.app-mergeDebugResources-92:\\layout\\item_dropdown.xml",
+        "source": "C:\\Users\\Hariharan\\.gradle\\daemon\\8.13\\com.smartexpense.android.app-main-95:\\layout\\item_dropdown.xml"
+    },
+    {
+        "merged": "com.smartexpense.android.app-mergeDebugResources-92:/layout/bottom_sheet_ai_chatbot.xml",
+        "source": "com.smartexpense.android.app-main-95:/layout/bottom_sheet_ai_chatbot.xml"
+    },
+    {
+        "merged": "C:\\Users\\Hariharan\\.gradle\\daemon\\8.13\\com.smartexpense.android.app-mergeDebugResources-92:\\layout\\fragment_dashboard.xml",
+        "source": "C:\\Users\\Hariharan\\.gradle\\daemon\\8.13\\com.smartexpense.android.app-main-95:\\layout\\fragment_dashboard.xml"
+    },
+    {
+        "merged": "C:\\Users\\Hariharan\\.gradle\\daemon\\8.13\\com.smartexpense.android.app-mergeDebugResources-92:\\layout\\activity_splash.xml",
+        "source": "C:\\Users\\Hariharan\\.gradle\\daemon\\8.13\\com.smartexpense.android.app-main-95:\\layout\\activity_splash.xml"
+    },
+    {
+        "merged": "C:\\Users\\Hariharan\\.gradle\\daemon\\8.13\\com.smartexpense.android.app-mergeDebugResources-92:\\layout\\activity_onboarding.xml",
+        "source": "C:\\Users\\Hariharan\\.gradle\\daemon\\8.13\\com.smartexpense.android.app-main-95:\\layout\\activity_onboarding.xml"
+    },
+    {
+        "merged": "C:\\Users\\Hariharan\\.gradle\\daemon\\8.13\\com.smartexpense.android.app-mergeDebugResources-92:\\layout\\activity_register.xml",
+        "source": "C:\\Users\\Hariharan\\.gradle\\daemon\\8.13\\com.smartexpense.android.app-main-95:\\layout\\activity_register.xml"
+    },
+    {
+        "merged": "C:\\Users\\Hariharan\\.gradle\\daemon\\8.13\\com.smartexpense.android.app-mergeDebugResources-92:\\layout\\activity_main.xml",
+        "source": "C:\\Users\\Hariharan\\.gradle\\daemon\\8.13\\com.smartexpense.android.app-main-95:\\layout\\activity_main.xml"
+    }
+]

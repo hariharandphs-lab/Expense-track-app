@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:paddingTop="4dp"
+    android:paddingBottom="4dp">
+
+    <!-- BOT MESSAGE CONTAINER -->
+    <LinearLayout
+        android:id="@+id/layoutBotMessage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="start"
+        android:layout_marginEnd="48dp"
+        android:background="@drawable/bg_chat_bubble_bot"
+        android:orientation="vertical"
+        android:padding="12dp">
+
+        <TextView
+            android:id="@+id/tvBotText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#E8F3EF"
+            android:textSize="13sp"
+            android:lineSpacingExtra="3dp" />
+    </LinearLayout>
+
+    <!-- USER MESSAGE CONTAINER -->
+    <LinearLayout
+        android:id="@+id/layoutUserMessage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end"
+        android:layout_marginStart="48dp"
+        android:background="@drawable/bg_chat_bubble_user"
+        android:orientation="vertical"
+        android:padding="12dp">
+
+        <TextView
+            android:id="@+id/tvUserText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#FFFFFF"
+            android:textSize="13sp" />
+    </LinearLayout>
+
+</LinearLayout>

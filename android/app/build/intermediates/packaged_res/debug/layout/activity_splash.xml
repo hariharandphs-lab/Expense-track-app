@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_gradient_splash">
+
+    <LinearLayout
+        android:id="@+id/ll_brand_container"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center_horizontal"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent">
+
+        <!-- Elevated Logo Card -->
+        <androidx.cardview.widget.CardView
+            android:id="@+id/card_logo"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            app:cardCornerRadius="28dp"
+            app:cardElevation="12dp"
+            app:cardBackgroundColor="@color/transparent">
+
+            <ImageView
+                android:id="@+id/iv_splash_logo"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scaleType="centerCrop"
+                android:src="@drawable/app_logo"
+                android:contentDescription="@string/app_name" />
+        </androidx.cardview.widget.CardView>
+
+        <!-- App Name -->
+        <TextView
+            android:id="@+id/tv_app_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="Smart Expense Tracker"
+            android:textColor="@color/white"
+            android:textSize="26sp"
+            android:textStyle="bold"
+            android:letterSpacing="0.02" />
+
+        <!-- Tagline -->
+        <TextView
+            android:id="@+id/tv_tagline"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="6dp"
+            android:text="AI Personal Finance &amp; Budgeting"
+            android:textColor="#9CB8AF"
+            android:textSize="14sp"
+            android:letterSpacing="0.04" />
+
+    </LinearLayout>
+
+    <!-- Bottom loading indicator & version -->
+    <ProgressBar
+        android:id="@+id/splash_progress"
+        style="?android:attr/progressBarStyleSmall"
+        android:layout_width="28dp"
+        android:layout_height="28dp"
+        android:layout_marginBottom="40dp"
+        android:indeterminateTint="@color/secondary"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

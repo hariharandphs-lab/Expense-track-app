@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.smartexpense.android.ui.main.MainSwipeNavigationTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2026-10-25T16:43:11.334Z" hostname="DELL" time="0.031">
+  <properties/>
+  <testcase name="testPositionToMenuItemMapping" classname="com.smartexpense.android.ui.main.MainSwipeNavigationTest" time="0.03"/>
+  <testcase name="testPageOrderSequenceAndCount" classname="com.smartexpense.android.ui.main.MainSwipeNavigationTest" time="0.0"/>
+  <testcase name="testMenuItemToPositionMapping" classname="com.smartexpense.android.ui.main.MainSwipeNavigationTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

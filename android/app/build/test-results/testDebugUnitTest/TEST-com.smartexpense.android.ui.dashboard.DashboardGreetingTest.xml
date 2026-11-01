@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.smartexpense.android.ui.dashboard.DashboardGreetingTest" tests="11" skipped="0" failures="0" errors="0" timestamp="2026-10-25T16:43:11.288Z" hostname="DELL" time="0.043">
+  <properties/>
+  <testcase name="testPersonalizedGreeting_eveningWithName" classname="com.smartexpense.android.ui.dashboard.DashboardGreetingTest" time="0.039"/>
+  <testcase name="testPersonalizedGreeting_emptyNameFallbackClean" classname="com.smartexpense.android.ui.dashboard.DashboardGreetingTest" time="0.0"/>
+  <testcase name="testPersonalizedGreeting_genericPlaceholdersFallbackClean" classname="com.smartexpense.android.ui.dashboard.DashboardGreetingTest" time="0.0"/>
+  <testcase name="testPersonalizedGreeting_afternoonWithName" classname="com.smartexpense.android.ui.dashboard.DashboardGreetingTest" time="0.0"/>
+  <testcase name="testPersonalizedGreeting_whitespaceNameFallbackClean" classname="com.smartexpense.android.ui.dashboard.DashboardGreetingTest" time="0.0"/>
+  <testcase name="testPersonalizedGreeting_fullNameExtractsFirst" classname="com.smartexpense.android.ui.dashboard.DashboardGreetingTest" time="0.001"/>
+  <testcase name="testPersonalizedGreeting_emailFallbackFormatted" classname="com.smartexpense.android.ui.dashboard.DashboardGreetingTest" time="0.0"/>
+  <testcase name="testPersonalizedGreeting_differentAccount" classname="com.smartexpense.android.ui.dashboard.DashboardGreetingTest" time="0.0"/>
+  <testcase name="testPersonalizedGreeting_emailWithDotFallbackFormatted" classname="com.smartexpense.android.ui.dashboard.DashboardGreetingTest" time="0.001"/>
+  <testcase name="testPersonalizedGreeting_morningWithName" classname="com.smartexpense.android.ui.dashboard.DashboardGreetingTest" time="0.0"/>
+  <testcase name="testPersonalizedGreeting_nullNameFallbackClean" classname="com.smartexpense.android.ui.dashboard.DashboardGreetingTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

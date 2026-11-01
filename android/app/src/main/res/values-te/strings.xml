@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">AI స్మార్ట్ ఖర్చు ట్రాకర్</string>
+    <string name="app_tagline">స్మార్ట్ ఖర్చు, మెరుగైన పొదుపు</string>
+    <string name="login">లాగిన్</string>
+    <string name="register">నమోదు</string>
+    <string name="email">ఇమెయిల్</string>
+    <string name="password">పాస్వర్డ్</string>
+    <string name="dashboard">డాష్బోర్డ్</string>
+    <string name="total_expenses">మొత్తం ఖర్చులు</string>
+    <string name="monthly_budget">నెల బడ్జెట్</string>
+    <string name="remaining_budget">మిగిలిన బడ్జెట్</string>
+    <string name="expenses">ఖర్చులు</string>
+    <string name="add_expense">ఖర్చు జోడించండి</string>
+    <string name="amount">మొత్తం</string>
+    <string name="category">వర్గం</string>
+    <string name="food">ఆహారం</string>
+    <string name="grocery">కిరాణా</string>
+    <string name="shopping">షాపింగ్</string>
+    <string name="travel">ప్రయాణం</string>
+    <string name="medical">వైద్య</string>
+    <string name="education">విద్య</string>
+    <string name="entertainment">వినోదం</string>
+    <string name="bills">బిల్లులు</string>
+    <string name="fuel">ఇంధనం</string>
+    <string name="others">ఇతరాలు</string>
+    <string name="budget">బడ్జెట్</string>
+    <string name="reports">నివేదికలు</string>
+    <string name="settings">సెట్టింగ్‌లు</string>
+    <string name="language">భాష</string>
+    <string name="save">సేవ్ చేయండి</string>
+    <string name="cancel">రద్దు చేయండి</string>
+    <string name="search">వెతకండి</string>
+    <string name="logout">లాగ్ అవుట్</string>
+    <string name="get_started">ప్రారంభించండి</string>
+    <string name="currency_inr">₹</string>
+    <string name="loading">లోడ్ అవుతోంది…</string>
+    <string name="error_network">ఇంటర్నెట్ కనెక్షన్ లేదు</string>
+</resources>

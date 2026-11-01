@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "766795638400",
+    "project_id": "smart-expense-tracker-de2c0",
+    "storage_bucket": "smart-expense-tracker-de2c0.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:766795638400:android:92aa8a087c7ec093352865",
+        "android_client_info": {
+          "package_name": "com.smartexpense.android"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "766795638400-k88u7vhfsld3ub4qvnl5gnj5m77th5t9.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.smartexpense.android",
+            "certificate_hash": "6fdbd76f00f0aa6a33a49a40183669047a70d1e9"
+          }
+        },
+        {
+          "client_id": "766795638400-ltredm93jd27quva3n40aoiikrgso76g.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyADGgQ3PvNTgIgxJ-uauhiER_BTaJCAx6o"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "766795638400-ltredm93jd27quva3n40aoiikrgso76g.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

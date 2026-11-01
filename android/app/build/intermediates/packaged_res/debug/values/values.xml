@@ -1,0 +1,348 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="http://schemas.android.com/tools">
+    <color name="background">#FDFAF4</color>
+    <color name="black">#000000</color>
+    <color name="cat_bills">#492C00</color>
+    <color name="cat_education">#D78900</color>
+    <color name="cat_entertainment">#A73A05</color>
+    <color name="cat_food">#FE7944</color>
+    <color name="cat_fuel">#795548</color>
+    <color name="cat_grocery">#2F7A4D</color>
+    <color name="cat_medical">#BA1A1A</color>
+    <color name="cat_others">#898379</color>
+    <color name="cat_shopping">#9C27B0</color>
+    <color name="cat_travel">#153728</color>
+    <color name="dark_background">#090D19</color>
+    <color name="dark_on_surface">#F1F4FB</color>
+    <color name="dark_outline">#1C263D</color>
+    <color name="dark_primary">#50FFAF</color>
+    <color name="dark_surface">#131929</color>
+    <color name="dark_surface_variant">#182033</color>
+    <color name="dark_text_hint">#67778F</color>
+    <color name="dark_text_secondary">#93A1B8</color>
+    <color name="divider">#E6DED3</color>
+    <color name="error">#BA1A1A</color>
+    <color name="error_container">#FFDAD6</color>
+    <color name="gradient_card_end">#2B5740</color>
+    <color name="gradient_card_mid">#1B3B2B</color>
+    <color name="gradient_card_start">#153728</color>
+    <color name="gradient_end">#1B3B2B</color>
+    <color name="gradient_start">#153728</color>
+    <color name="info">#2B5740</color>
+    <color name="info_container">#E2F2E9</color>
+    <color name="on_error">#FFFFFF</color>
+    <color name="on_error_container">#93000A</color>
+    <color name="on_primary">#FFFFFF</color>
+    <color name="on_primary_container">#C8EAD7</color>
+    <color name="on_secondary">#FFFFFF</color>
+    <color name="on_secondary_container">#661F00</color>
+    <color name="on_secondary_fixed">#380D00</color>
+    <color name="on_tertiary">#FFFFFF</color>
+    <color name="on_tertiary_fixed">#2A1700</color>
+    <color name="outline">#E6DED3</color>
+    <color name="primary">#153728</color>
+    <color name="primary_alpha">#1F153728</color>
+    <color name="primary_container">#1B3B2B</color>
+    <color name="primary_dark">#0E261B</color>
+    <color name="primary_fixed">#C8EAD7</color>
+    <color name="primary_fixed_dim">#ADCEBC</color>
+    <color name="primary_light">#2F4D3F</color>
+    <color name="scrim">#52000000</color>
+    <color name="secondary">#A73A05</color>
+    <color name="secondary_container">#FE7944</color>
+    <color name="secondary_dark">#802900</color>
+    <color name="secondary_fixed">#FFDBCF</color>
+    <color name="secondary_fixed_dim">#FFB59A</color>
+    <color name="secondary_light">#FE7944</color>
+    <color name="success">#153728</color>
+    <color name="success_container">#C8EAD7</color>
+    <color name="surface">#FFFFFF</color>
+    <color name="surface_container">#F0EBE1</color>
+    <color name="surface_container_high">#EBE4DA</color>
+    <color name="surface_container_highest">#E4DCD1</color>
+    <color name="surface_container_low">#F7F2E9</color>
+    <color name="surface_variant">#F7F2E9</color>
+    <color name="tertiary">#2D1900</color>
+    <color name="tertiary_container">#492C00</color>
+    <color name="tertiary_fixed">#FFDDB8</color>
+    <color name="tertiary_fixed_dim">#FFB95F</color>
+    <color name="text_hint">#898379</color>
+    <color name="text_on_primary">#FFFFFF</color>
+    <color name="text_primary">#1D1B17</color>
+    <color name="text_secondary">#625D54</color>
+    <color name="transparent">#00000000</color>
+    <color name="warning">#A73A05</color>
+    <color name="warning_container">#FFDBCF</color>
+    <color name="white">#FFFFFF</color>
+    <string name="about">About</string>
+    <string name="add_expense">Add Expense</string>
+    <string name="add_first_expense">Add your first expense</string>
+    <string name="ai_insights">AI Insights</string>
+    <string name="already_have_account">Already have an account?</string>
+    <string name="amount">Amount</string>
+    <string name="app_name">AI Smart Expense Tracker</string>
+    <string name="app_tagline">Smart spending, smarter savings</string>
+    <string name="back">Back</string>
+    <string name="backup_now">Backup Now</string>
+    <string name="bills">Bills</string>
+    <string name="budget">Budget</string>
+    <string name="budget_alert">You\'ve used %1$s%% of your %2$s budget</string>
+    <string name="budget_planner">Budget Planner</string>
+    <string name="budget_progress">Budget Progress</string>
+    <string name="cancel">Cancel</string>
+    <string name="capture">Capture</string>
+    <string name="card">Card</string>
+    <string name="cash">Cash</string>
+    <string name="category">Category</string>
+    <string name="category_breakdown">Category Breakdown</string>
+    <string name="clear_filters">Clear Filters</string>
+    <string name="cloud_backup">Cloud Backup</string>
+    <string name="confirm_delete">Are you sure you want to delete this expense?</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="create_account">Create your account</string>
+    <string name="currency_inr">₹</string>
+    <string name="daily">Daily</string>
+    <string name="dark_mode">Dark Mode</string>
+    <string name="dashboard">Dashboard</string>
+    <string name="date">Date</string>
+    <string name="default_web_client_id" translatable="false">766795638400-ltredm93jd27quva3n40aoiikrgso76g.apps.googleusercontent.com</string>
+    <string name="delete">Delete</string>
+    <string name="delete_expense">Delete Expense</string>
+    <string name="description">Description</string>
+    <string name="done">Done</string>
+    <string name="dont_have_account">Don\'t have an account?</string>
+    <string name="edit_expense">Edit Expense</string>
+    <string name="education">Education</string>
+    <string name="email">Email</string>
+    <string name="entertainment">Entertainment</string>
+    <string name="error_amount">Enter a valid amount</string>
+    <string name="error_generic">Something went wrong. Please try again.</string>
+    <string name="error_invalid_email">Enter a valid email address</string>
+    <string name="error_login">Invalid email or password</string>
+    <string name="error_network">No internet connection</string>
+    <string name="error_password_length">Password must be at least 8 characters</string>
+    <string name="error_required">This field is required</string>
+    <string name="expense_added">Expense added successfully</string>
+    <string name="expense_deleted">Expense deleted</string>
+    <string name="expense_prediction">Expense Prediction</string>
+    <string name="expense_updated">Expense updated successfully</string>
+    <string name="expenses">Expenses</string>
+    <string name="export_excel">Export Excel</string>
+    <string name="export_pdf">Export PDF</string>
+    <string name="filter">Filter</string>
+    <string name="filter_by_category">Filter by Category</string>
+    <string name="filter_by_date">Filter by Date</string>
+    <string name="food">Food</string>
+    <string name="forgot_password">Forgot Password?</string>
+    <string name="from_date">From Date</string>
+    <string name="fuel">Fuel</string>
+    <string name="full_name">Full Name</string>
+    <string name="gcm_defaultSenderId" translatable="false">766795638400</string>
+    <string name="get_started">Get Started</string>
+    <string name="google_api_key" translatable="false">AIzaSyADGgQ3PvNTgIgxJ-uauhiER_BTaJCAx6o</string>
+    <string name="google_app_id" translatable="false">1:766795638400:android:92aa8a087c7ec093352865</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyADGgQ3PvNTgIgxJ-uauhiER_BTaJCAx6o</string>
+    <string name="google_storage_bucket" translatable="false">smart-expense-tracker-de2c0.firebasestorage.app</string>
+    <string name="google_web_client_id" translatable="false">766795638400-ltredm93jd27quva3n40aoiikrgso76g.apps.googleusercontent.com</string>
+    <string name="grocery">Grocery</string>
+    <string name="language">Language</string>
+    <string name="light_mode">Light Mode</string>
+    <string name="listening">Listening...</string>
+    <string name="loading">Loading...</string>
+    <string name="login">Login</string>
+    <string name="logout">Logout</string>
+    <string name="manual_entry">Manual</string>
+    <string name="medical">Medical</string>
+    <string name="merchant_learn_prompt">Which category does \"%s\" belong to?</string>
+    <string name="merchant_name">Merchant Name</string>
+    <string name="monthly">Monthly</string>
+    <string name="monthly_budget">Monthly Budget</string>
+    <string name="net_banking">Net Banking</string>
+    <string name="next">Next</string>
+    <string name="no">No</string>
+    <string name="no_expenses">No expenses yet</string>
+    <string name="no_results">No results found</string>
+    <string name="notifications">Notifications</string>
+    <string name="ocr_extracting">Extracting text from receipt...</string>
+    <string name="ok">OK</string>
+    <string name="onboarding_desc_1">Automatically detect transactions from SMS messages sent by your bank</string>
+    <string name="onboarding_desc_2">Our AI learns your spending habits and categorizes expenses intelligently</string>
+    <string name="onboarding_desc_3">Get personalized financial insights, predictions, and budget recommendations</string>
+    <string name="onboarding_title_1">Auto-Track Expenses</string>
+    <string name="onboarding_title_2">AI Smart Categorization</string>
+    <string name="onboarding_title_3">Insights &amp; Analytics</string>
+    <string name="others">Others</string>
+    <string name="over_budget">Over Budget!</string>
+    <string name="password">Password</string>
+    <string name="payment_method">Payment Method</string>
+    <string name="position_receipt">Position the receipt within the frame</string>
+    <string name="privacy_policy">Privacy Policy</string>
+    <string name="processing">Processing...</string>
+    <string name="processing_voice">Processing your voice input...</string>
+    <string name="profile">Profile</string>
+    <string name="project_id" translatable="false">smart-expense-tracker-de2c0</string>
+    <string name="recent_transactions">Recent Transactions</string>
+    <string name="register">Register</string>
+    <string name="remaining">Remaining</string>
+    <string name="remaining_budget">Remaining Budget</string>
+    <string name="reports">Reports</string>
+    <string name="restore">Restore</string>
+    <string name="retake">Retake</string>
+    <string name="review_details">Review Details</string>
+    <string name="save">Save</string>
+    <string name="scan_receipt">Scan Receipt</string>
+    <string name="scanning_receipt">Scanning receipt...</string>
+    <string name="search">Search</string>
+    <string name="search_expenses">Search expenses...</string>
+    <string name="select_category">Select Category</string>
+    <string name="set_budget">Set Budget</string>
+    <string name="settings">Settings</string>
+    <string name="shopping">Shopping</string>
+    <string name="sign_in">Sign In</string>
+    <string name="sign_in_with_google">Sign in with Google</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="skip">Skip</string>
+    <string name="sms_added">SMS transaction added</string>
+    <string name="sms_detected">New transaction detected from SMS</string>
+    <string name="sms_permission_message">Allow AI Smart Expense Tracker to read SMS messages to automatically detect bank transactions?</string>
+    <string name="sms_permission_title">SMS Permission Required</string>
+    <string name="sms_tracking">SMS Tracking</string>
+    <string name="spending_trend">Spending Trend</string>
+    <string name="spent">Spent</string>
+    <string name="success">Success</string>
+    <string name="sync_complete">Sync complete</string>
+    <string name="syncing">Syncing...</string>
+    <string name="system_default">System Default</string>
+    <string name="tap_to_speak">Tap to speak</string>
+    <string name="theme">Theme</string>
+    <string name="this_month">This Month</string>
+    <string name="to_date">To Date</string>
+    <string name="top_categories">Top Categories</string>
+    <string name="total_budget">Total Budget</string>
+    <string name="total_expenses">Total Expenses</string>
+    <string name="travel">Travel</string>
+    <string name="unknown_merchant">Unknown Merchant</string>
+    <string name="upi">UPI</string>
+    <string name="use_details">Use these details</string>
+    <string name="version">Version %s</string>
+    <string name="view_all">View All</string>
+    <string name="voice_entry">Voice</string>
+    <string name="voice_hint">Say something like: \"I spent 250 rupees on lunch\"</string>
+    <string name="wallet">Wallet</string>
+    <string name="weekly">Weekly</string>
+    <string name="yearly">Yearly</string>
+    <string name="yes">Yes</string>
+    <style name="TextAppearance.SmartExpense.Amount" parent="TextAppearance.Material3.DisplayMedium">
+        <item name="android:fontFamily">sans-serif-black</item>
+        <item name="android:textColor">@color/text_primary</item>
+        <item name="android:textSize">32sp</item>
+    </style>
+    <style name="TextAppearance.SmartExpense.Body" parent="TextAppearance.Material3.BodyLarge">
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="android:textColor">@color/text_secondary</item>
+    </style>
+    <style name="TextAppearance.SmartExpense.Display" parent="TextAppearance.Material3.DisplayLarge">
+        <item name="android:fontFamily">sans-serif-black</item>
+        <item name="android:textColor">@color/text_primary</item>
+    </style>
+    <style name="TextAppearance.SmartExpense.Title" parent="TextAppearance.Material3.TitleLarge">
+        <item name="android:fontFamily">sans-serif-medium</item>
+        <item name="android:textColor">@color/text_primary</item>
+    </style>
+    <style name="Theme.SmartExpenseTracker" parent="Theme.Material3.DayNight.NoActionBar">
+        
+        <item name="colorPrimary">@color/primary</item>
+        <item name="colorOnPrimary">@color/on_primary</item>
+        <item name="colorPrimaryContainer">@color/primary_container</item>
+        <item name="colorOnPrimaryContainer">@color/on_primary_container</item>
+        
+        <item name="colorSecondary">@color/secondary</item>
+        <item name="colorOnSecondary">@color/on_secondary</item>
+        <item name="colorSecondaryContainer">@color/secondary_container</item>
+        
+        <item name="android:statusBarColor">@color/transparent</item>
+        <item name="android:windowLightStatusBar" ns1:targetApi="m">true</item>
+        
+        <item name="android:navigationBarColor">@color/background</item>
+        
+        <item name="android:colorBackground">@color/background</item>
+        
+        <item name="colorError">@color/error</item>
+        
+        <item name="android:fontFamily">sans-serif</item>
+    </style>
+    <style name="Theme.SmartExpenseTracker.Splash" parent="Theme.SmartExpenseTracker">
+        <item name="android:statusBarColor">#090D19</item>
+        <item name="android:windowLightStatusBar" ns1:targetApi="m">false</item>
+        <item name="android:navigationBarColor">#090D19</item>
+    </style>
+    <style name="Widget.SmartExpense.BottomNav" parent="Widget.Material3.BottomNavigationView">
+        <item name="itemIconTint">@color/bottom_nav_color</item>
+        <item name="itemTextColor">@color/bottom_nav_color</item>
+        <item name="android:background">@color/background</item>
+        <item name="elevation">8dp</item>
+    </style>
+    <style name="Widget.SmartExpense.Button.Outlined" parent="Widget.Material3.Button.OutlinedButton">
+        <item name="android:paddingTop">12dp</item>
+        <item name="android:paddingBottom">12dp</item>
+        <item name="cornerRadius">16dp</item>
+        <item name="strokeColor">@color/outline</item>
+        <item name="strokeWidth">1dp</item>
+        <item name="android:textColor">@color/primary</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+        <item name="android:backgroundTint">@color/surface_variant</item>
+    </style>
+    <style name="Widget.SmartExpense.Button.Primary" parent="Widget.Material3.Button">
+        <item name="backgroundTint">@color/primary</item>
+        <item name="android:textColor">@color/text_on_primary</item>
+        <item name="android:paddingTop">12dp</item>
+        <item name="android:paddingBottom">12dp</item>
+        <item name="cornerRadius">16dp</item>
+        <item name="android:textSize">15sp</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+        <item name="elevation">2dp</item>
+    </style>
+    <style name="Widget.SmartExpense.Card" parent="Widget.Material3.CardView.Elevated">
+        <item name="cardElevation">1dp</item>
+        <item name="cardCornerRadius">22dp</item>
+        <item name="contentPadding">16dp</item>
+        <item name="cardBackgroundColor">@color/surface</item>
+        <item name="strokeColor">@color/outline</item>
+        <item name="strokeWidth">1dp</item>
+    </style>
+    <style name="Widget.SmartExpense.Chip" parent="Widget.Material3.Chip.Filter">
+        <item name="chipCornerRadius">16dp</item>
+        <item name="chipStrokeColor">@color/outline</item>
+        <item name="chipStrokeWidth">1dp</item>
+        <item name="checkedIconVisible">true</item>
+        <item name="chipBackgroundColor">@color/surface</item>
+    </style>
+    <style name="Widget.SmartExpense.Dialog" parent="ThemeOverlay.Material3.Dialog">
+        <item name="cornerRadius">24dp</item>
+    </style>
+    <style name="Widget.SmartExpense.FAB" parent="Widget.Material3.FloatingActionButton.Primary">
+        <item name="backgroundTint">@color/primary</item>
+        <item name="tint">@color/text_on_primary</item>
+        <item name="elevation">6dp</item>
+    </style>
+    <style name="Widget.SmartExpense.Snackbar" parent="Widget.Material3.Snackbar">
+        <item name="backgroundTint">@color/primary_dark</item>
+        <item name="actionTextColorAlpha">1</item>
+        <item name="snackbarButtonStyle">@style/Widget.Material3.Button.TextButton.Snackbar</item>
+    </style>
+    <style name="Widget.SmartExpense.TextInputLayout" parent="Widget.Material3.TextInputLayout.OutlinedBox">
+        <item name="boxCornerRadiusTopStart">16dp</item>
+        <item name="boxCornerRadiusTopEnd">16dp</item>
+        <item name="boxCornerRadiusBottomStart">16dp</item>
+        <item name="boxCornerRadiusBottomEnd">16dp</item>
+        <item name="boxStrokeColor">@color/primary</item>
+        <item name="boxStrokeWidth">1.5dp</item>
+        <item name="hintTextColor">@color/primary</item>
+        <item name="boxBackgroundColor">@color/surface</item>
+    </style>
+    <style name="Widget.SmartExpense.Toolbar" parent="Widget.Material3.Toolbar">
+        <item name="titleTextAppearance">@style/TextAppearance.SmartExpense.Title</item>
+        <item name="android:background">@color/background</item>
+        <item name="elevation">0dp</item>
+    </style>
+</resources>

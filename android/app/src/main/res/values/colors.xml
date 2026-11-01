@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Google Stitch Light Mode Design Palette (Warm Tactile Editorial / Deep Forest & Terracotta) -->
+    <color name="primary">#153728</color>
+    <color name="primary_dark">#0E261B</color>
+    <color name="primary_light">#2F4D3F</color>
+    <color name="primary_alpha">#1F153728</color>
+    <color name="primary_container">#1B3B2B</color>
+    <color name="on_primary">#FFFFFF</color>
+    <color name="on_primary_container">#C8EAD7</color>
+    <color name="primary_fixed">#C8EAD7</color>
+    <color name="primary_fixed_dim">#ADCEBC</color>
+
+    <!-- Secondary - Warm Rust / Terracotta / Coral Accent -->
+    <color name="secondary">#A73A05</color>
+    <color name="secondary_dark">#802900</color>
+    <color name="secondary_light">#FE7944</color>
+    <color name="secondary_container">#FE7944</color>
+    <color name="secondary_fixed">#FFDBCF</color>
+    <color name="secondary_fixed_dim">#FFB59A</color>
+    <color name="on_secondary">#FFFFFF</color>
+    <color name="on_secondary_container">#661F00</color>
+    <color name="on_secondary_fixed">#380D00</color>
+
+    <!-- Tertiary - Biscuit Gold & Espresso -->
+    <color name="tertiary">#2D1900</color>
+    <color name="tertiary_container">#492C00</color>
+    <color name="tertiary_fixed">#FFDDB8</color>
+    <color name="tertiary_fixed_dim">#FFB95F</color>
+    <color name="on_tertiary">#FFFFFF</color>
+    <color name="on_tertiary_fixed">#2A1700</color>
+
+    <!-- Background & Surface - Warm Biscuit / Ivory Cream -->
+    <color name="background">#FDFAF4</color>
+    <color name="surface">#FFFFFF</color>
+    <color name="surface_variant">#F7F2E9</color>
+    <color name="surface_container">#F0EBE1</color>
+    <color name="surface_container_low">#F7F2E9</color>
+    <color name="surface_container_high">#EBE4DA</color>
+    <color name="surface_container_highest">#E4DCD1</color>
+    <color name="outline">#E6DED3</color>
+    <color name="divider">#E6DED3</color>
+
+    <!-- Error -->
+    <color name="error">#BA1A1A</color>
+    <color name="error_container">#FFDAD6</color>
+    <color name="on_error">#FFFFFF</color>
+    <color name="on_error_container">#93000A</color>
+
+    <!-- Success / Warning / Info -->
+    <color name="success">#153728</color>
+    <color name="success_container">#C8EAD7</color>
+    <color name="warning">#A73A05</color>
+    <color name="warning_container">#FFDBCF</color>
+    <color name="info">#2B5740</color>
+    <color name="info_container">#E2F2E9</color>
+
+    <!-- Text Typography -->
+    <color name="text_primary">#1D1B17</color>
+    <color name="text_secondary">#625D54</color>
+    <color name="text_hint">#898379</color>
+    <color name="text_on_primary">#FFFFFF</color>
+
+    <!-- Category Colors (Matching Google Stitch Light Palette) -->
+    <color name="cat_food">#FE7944</color>
+    <color name="cat_grocery">#2F7A4D</color>
+    <color name="cat_shopping">#9C27B0</color>
+    <color name="cat_travel">#153728</color>
+    <color name="cat_medical">#BA1A1A</color>
+    <color name="cat_education">#D78900</color>
+    <color name="cat_entertainment">#A73A05</color>
+    <color name="cat_bills">#492C00</color>
+    <color name="cat_fuel">#795548</color>
+    <color name="cat_others">#898379</color>
+
+    <!-- Dark Mode Colors (Google Stitch Obsidian & Neon Tokens for backwards compatibility) -->
+    <color name="dark_background">#090D19</color>
+    <color name="dark_surface">#131929</color>
+    <color name="dark_surface_variant">#182033</color>
+    <color name="dark_primary">#50FFAF</color>
+    <color name="dark_on_surface">#F1F4FB</color>
+    <color name="dark_text_secondary">#93A1B8</color>
+    <color name="dark_text_hint">#67778F</color>
+    <color name="dark_outline">#1C263D</color>
+
+    <!-- Gradients -->
+    <color name="gradient_start">#153728</color>
+    <color name="gradient_end">#1B3B2B</color>
+    <color name="gradient_card_start">#153728</color>
+    <color name="gradient_card_mid">#1B3B2B</color>
+    <color name="gradient_card_end">#2B5740</color>
+
+    <!-- Overlays -->
+    <color name="scrim">#52000000</color>
+
+    <!-- Shorekeeper AI Chatbot Colors (Light Mode) -->
+    <color name="chat_header_title">#1D1B17</color>
+    <color name="chat_header_subtitle">#153728</color>
+    <color name="chat_drag_handle">#C8D1CC</color>
+    <color name="chat_divider">#E6DED3</color>
+    <color name="chat_bot_bubble_bg">#E2EFE8</color>
+    <color name="chat_bot_bubble_stroke">#B4D5C6</color>
+    <color name="chat_chip_bg">#EDF5F1</color>
+    <color name="chat_chip_stroke">#BBDCD0</color>
+    <color name="chat_chip_text">#153728</color>
+    <color name="chat_chip_bg_checked">#D4EBE1</color>
+    <color name="chat_chip_stroke_checked">#153728</color>
+    <color name="chat_chip_text_checked">#153728</color>
+    <color name="chat_input_bg">#F5F8F6</color>
+    <color name="chat_input_stroke">#C8DDD4</color>
+    <color name="chat_input_text">#1D1B17</color>
+    <color name="chat_input_hint">#625D54</color>
+    <color name="chat_close_btn_tint">#625D54</color>
+    <color name="chat_tts_btn_tint">#153728</color>
+    <color name="chat_action_btn_bg">#153728</color>
+    <color name="chat_action_btn_tint">#FFFFFF</color>
+
+    <!-- White / Black -->
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+    <color name="transparent">#00000000</color>
+</resources>

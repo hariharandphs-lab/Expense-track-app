@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">AI સ્માર્ટ ખર્ચ ટ્રૅકર</string>
+    <string name="app_tagline">સ્માર્ટ ખર્ચ, સારી બચત</string>
+    <string name="login">લૉગ ઇન</string>
+    <string name="register">નોંધણી</string>
+    <string name="email">ઇ-મેઇલ</string>
+    <string name="password">પાસવર્ડ</string>
+    <string name="dashboard">ડૅશબૉર્ડ</string>
+    <string name="total_expenses">કુલ ખર્ચ</string>
+    <string name="monthly_budget">માસિક બજેટ</string>
+    <string name="expenses">ખર્ચ</string>
+    <string name="add_expense">ખર્ચ ઉમેરો</string>
+    <string name="amount">રકમ</string>
+    <string name="category">શ્રેણી</string>
+    <string name="food">ભોજન</string>
+    <string name="grocery">કરિયાણું</string>
+    <string name="shopping">ખરીદી</string>
+    <string name="travel">પ્રવાસ</string>
+    <string name="medical">તબીબી</string>
+    <string name="education">શિક્ષણ</string>
+    <string name="entertainment">મનોરંજન</string>
+    <string name="bills">બિલ</string>
+    <string name="fuel">ઇંધણ</string>
+    <string name="others">અન્ય</string>
+    <string name="budget">બજેટ</string>
+    <string name="reports">અહેવાલ</string>
+    <string name="settings">સેટિંગ</string>
+    <string name="language">ભાષા</string>
+    <string name="save">સાચવો</string>
+    <string name="cancel">રદ કરો</string>
+    <string name="search">શોધ</string>
+    <string name="logout">લૉગ આઉટ</string>
+    <string name="get_started">શરૂ કરો</string>
+    <string name="currency_inr">₹</string>
+    <string name="loading">લૉડ થઈ રહ્યું છે…</string>
+    <string name="error_network">ઇન્ટરનેટ કનેક્શન નથી</string>
+</resources>

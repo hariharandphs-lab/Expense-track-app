@@ -1,0 +1,438 @@
+[
+    {
+        "merged": "C:\\Users\\Hariharan\\.gradle\\daemon\\8.13\\com.smartexpense.android.app-debug-93:\\color_chat_filter_chip_stroke.xml.flat",
+        "source": "C:\\Users\\Hariharan\\.gradle\\daemon\\8.13\\com.smartexpense.android.app-main-95:\\color\\chat_filter_chip_stroke.xml"
+    },
+    {
+        "merged": "C:\\Users\\Hariharan\\.gradle\\daemon\\8.13\\com.smartexpense.android.app-debug-93:\\drawable_ic_nav_home.xml.flat",
+        "source": "C:\\Users\\Hariharan\\.gradle\\daemon\\8.13\\com.smartexpense.android.app-main-95:\\drawable\\ic_nav_home.xml"
+    },
+    {
+        "merged": "C:\\Users\\Hariharan\\.gradle\\daemon\\8.13\\com.smartexpense.android.app-debug-93:\\drawable_bg_kpi_icon.xml.flat",
+        "source": "C:\\Users\\Hariharan\\.gradle\\daemon\\8.13\\com.smartexpense.android.app-main-95:\\drawable\\bg_kpi_icon.xml"
+    },
+    {
+        "merged": "C:\\Users\\Hariharan\\.gradle\\daemon\\8.13\\com.smartexpense.android.app-debug-93:\\drawable_ic_calendar.xml.flat",
+        "source": "C:\\Users\\Hariharan\\.gradle\\daemon\\8.13\\com.smartexpense.android.app-main-95:\\drawable\\ic_calendar.xml"
+    },
+    {
+        "merged": "C:\\Users\\Hariharan\\.gradle\\daemon\\8.13\\com.smartexpense.android.app-debug-93:\\drawable_ic_sparkles.xml.flat",
+        "source": "C:\\Users\\Hariharan\\.gradle\\daemon\\8.13\\com.smartexpense.android.app-main-95:\\drawable\\ic_sparkles.xml"
+    },
+    {
+        "merged": "C:\\Users\\Hariharan\\.gradle\\daemon\\8.13\\com.smartexpense.android.app-debug-93:\\drawable_ic_wallet.xml.flat",
+        "source": "C:\\Users\\Hariharan\\.gradle\\daemon\\8.13\\com.smartexpense.android.app-main-95:\\drawable\\ic_wallet.xml"
+    },
+    {
+        "merged": "C:\\Users\\Hariharan\\.gradle\\daemon\\8.13\\com.smartexpense.android.app-debug-93:\\xml_backup_rules.xml.flat",
+        "source": "C:\\Users\\Hariharan\\.gradle\\daemon\\8.13\\com.smartexpense.android.app-main-95:\\xml\\backup_rules.xml"
+    },
+    {
+        "merged": "C:\\Users\\Hariharan\\.gradle\\daemon\\8.13\\com.smartexpense.android.app-debug-93:\\layout_activity_main.xml.flat",
+        "source": "C:\\Users\\Hariharan\\.gradle\\daemon\\8.13\\com.smartexpense.android.app-main-95:\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\Hariharan\\.gradle\\daemon\\8.13\\com.smartexpense.android.app-debug-93:\\layout_fragment_dashboard.xml.flat",
+        "source": "C:\\Users\\Hariharan\\.gradle\\daemon\\8.13\\com.smartexpense.android.app-main-95:\\layout\\fragment_dashboard.xml"
+    },
+    {
+        "merged": "C:\\Users\\Hariharan\\.gradle\\daemon\\8.13\\com.smartexpense.android.app-debug-93:\\drawable_ic_volume_up.xml.flat",
+        "source": "C:\\Users\\Hariharan\\.gradle\\daemon\\8.13\\com.smartexpense.android.app-main-95:\\drawable\\ic_volume_up.xml"
+    },
+    {
+        "merged": "C:\\Users\\Hariharan\\.gradle\\daemon\\8.13\\com.smartexpense.android.app-debug-93:\\mipmap-xxxhdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\Hariharan\\.gradle\\daemon\\8.13\\com.smartexpense.android.app-main-95:\\mipmap-xxxhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\Hariharan\\.gradle\\daemon\\8.13\\com.smartexpense.android.app-debug-93:\\drawable_bg_shimmer_item.xml.flat",
+        "source": "C:\\Users\\Hariharan\\.gradle\\daemon\\8.13\\com.smartexpense.android.app-main-95:\\drawable\\bg_shimmer_item.xml"
+    },
+    {
+        "merged": "C:\\Users\\Hariharan\\.gradle\\daemon\\8.13\\com.smartexpense.android.app-debug-93:\\drawable_ic_cat_entertainment.xml.flat",
+        "source": "C:\\Users\\Hariharan\\.gradle\\daemon\\8.13\\com.smartexpense.android.app-main-95:\\drawable\\ic_cat_entertainment.xml"
+    },
+    {
+        "merged": "C:\\Users\\Hariharan\\.gradle\\daemon\\8.13\\com.smartexpense.android.app-debug-93:\\drawable_ic_cat_bills.xml.flat",
+        "source": "C:\\Users\\Hariharan\\.gradle\\daemon\\8.13\\com.smartexpense.android.app-main-95:\\drawable\\ic_cat_bills.xml"
+    },
+    {
+        "merged": "C:\\Users\\Hariharan\\.gradle\\daemon\\8.13\\com.smartexpense.android.app-debug-93:\\xml_file_paths.xml.flat",
+        "source": "C:\\Users\\Hariharan\\.gradle\\daemon\\8.13\\com.smartexpense.android.app-main-95:\\xml\\file_paths.xml"
+    },
+    {
+        "merged": "C:\\Users\\Hariharan\\.gradle\\daemon\\8.13\\com.smartexpense.android.app-debug-93:\\drawable_bg_security_badge.xml.flat",
+        "source": "C:\\Users\\Hariharan\\.gradle\\daemon\\8.13\\com.smartexpense.android.app-main-95:\\drawable\\bg_security_badge.xml"
+    },
+    {
+        "merged": "C:\\Users\\Hariharan\\.gradle\\daemon\\8.13\\com.smartexpense.android.app-debug-93:\\mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\Hariharan\\.gradle\\daemon\\8.13\\com.smartexpense.android.app-main-95:\\mipmap-xxhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\Hariharan\\.gradle\\daemon\\8.13\\com.smartexpense.android.app-debug-93:\\drawable_ic_google.xml.flat",
+        "source": "C:\\Users\\Hariharan\\.gradle\\daemon\\8.13\\com.smartexpense.android.app-main-95:\\drawable\\ic_google.xml"
+    },
+    {
+        "merged": "C:\\Users\\Hariharan\\.gradle\\daemon\\8.13\\com.smartexpense.android.app-debug-93:\\mipmap-mdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\Hariharan\\.gradle\\daemon\\8.13\\com.smartexpense.android.app-main-95:\\mipmap-mdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\Hariharan\\.gradle\\daemon\\8.13\\com.smartexpense.android.app-debug-93:\\drawable_app_logo.png.flat",
+        "source": "C:\\Users\\Hariharan\\.gradle\\daemon\\8.13\\com.smartexpense.android.app-main-95:\\drawable\\app_logo.png"
+    },
+    {
+        "merged": "C:\\Users\\Hariharan\\.gradle\\daemon\\8.13\\com.smartexpense.android.app-debug-93:\\layout_fragment_reports.xml.flat",
+        "source": "C:\\Users\\Hariharan\\.gradle\\daemon\\8.13\\com.smartexpense.android.app-main-95:\\layout\\fragment_reports.xml"
+    },
+    {
+        "merged": "C:\\Users\\Hariharan\\.gradle\\daemon\\8.13\\com.smartexpense.android.app-debug-93:\\layout_dialog_set_budget.xml.flat",
+        "source": "C:\\Users\\Hariharan\\.gradle\\daemon\\8.13\\com.smartexpense.android.app-main-95:\\layout\\dialog_set_budget.xml"
+    },
+    {
+        "merged": "C:\\Users\\Hariharan\\.gradle\\daemon\\8.13\\com.smartexpense.android.app-debug-93:\\drawable_bg_chat_action_button.xml.flat",
+        "source": "C:\\Users\\Hariharan\\.gradle\\daemon\\8.13\\com.smartexpense.android.app-main-95:\\drawable\\bg_chat_action_button.xml"
+    },
+    {
+        "merged": "C:\\Users\\Hariharan\\.gradle\\daemon\\8.13\\com.smartexpense.android.app-debug-93:\\drawable_onboarding_sms.xml.flat",
+        "source": "C:\\Users\\Hariharan\\.gradle\\daemon\\8.13\\com.smartexpense.android.app-main-95:\\drawable\\onboarding_sms.xml"
+    },
+    {
+        "merged": "C:\\Users\\Hariharan\\.gradle\\daemon\\8.13\\com.smartexpense.android.app-debug-93:\\mipmap-xhdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\Hariharan\\.gradle\\daemon\\8.13\\com.smartexpense.android.app-main-95:\\mipmap-xhdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "C:\\Users\\Hariharan\\.gradle\\daemon\\8.13\\com.smartexpense.android.app-debug-93:\\drawable_ic_cat_food.xml.flat",
+        "source": "C:\\Users\\Hariharan\\.gradle\\daemon\\8.13\\com.smartexpense.android.app-main-95:\\drawable\\ic_cat_food.xml"
+    },
+    {
+        "merged": "C:\\Users\\Hariharan\\.gradle\\daemon\\8.13\\com.smartexpense.android.app-debug-93:\\drawable_ic_payment.xml.flat",
+        "source": "C:\\Users\\Hariharan\\.gradle\\daemon\\8.13\\com.smartexpense.android.app-main-95:\\drawable\\ic_payment.xml"
+    },
+    {
+        "merged": "C:\\Users\\Hariharan\\.gradle\\daemon\\8.13\\com.smartexpense.android.app-debug-93:\\layout_activity_add_expense.xml.flat",
+        "source": "C:\\Users\\Hariharan\\.gradle\\daemon\\8.13\\com.smartexpense.android.app-main-95:\\layout\\activity_add_expense.xml"
+    },
+    {
+        "merged": "C:\\Users\\Hariharan\\.gradle\\daemon\\8.13\\com.smartexpense.android.app-debug-93:\\mipmap-hdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\Hariharan\\.gradle\\daemon\\8.13\\com.smartexpense.android.app-main-95:\\mipmap-hdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\Hariharan\\.gradle\\daemon\\8.13\\com.smartexpense.android.app-debug-93:\\drawable_ic_store.xml.flat",
+        "source": "C:\\Users\\Hariharan\\.gradle\\daemon\\8.13\\com.smartexpense.android.app-main-95:\\drawable\\ic_store.xml"
+    },
+    {
+        "merged": "C:\\Users\\Hariharan\\.gradle\\daemon\\8.13\\com.smartexpense.android.app-debug-93:\\layout_view_shorekeeper_companion.xml.flat",
+        "source": "C:\\Users\\Hariharan\\.gradle\\daemon\\8.13\\com.smartexpense.android.app-main-95:\\layout\\view_shorekeeper_companion.xml"
+    },
+    {
+        "merged": "C:\\Users\\Hariharan\\.gradle\\daemon\\8.13\\com.smartexpense.android.app-debug-93:\\layout_activity_splash.xml.flat",
+        "source": "C:\\Users\\Hariharan\\.gradle\\daemon\\8.13\\com.smartexpense.android.app-main-95:\\layout\\activity_splash.xml"
+    },
+    {
+        "merged": "C:\\Users\\Hariharan\\.gradle\\daemon\\8.13\\com.smartexpense.android.app-debug-93:\\drawable_ic_search.xml.flat",
+        "source": "C:\\Users\\Hariharan\\.gradle\\daemon\\8.13\\com.smartexpense.android.app-main-95:\\drawable\\ic_search.xml"
+    },
+    {
+        "merged": "C:\\Users\\Hariharan\\.gradle\\daemon\\8.13\\com.smartexpense.android.app-debug-93:\\layout_item_chat_message.xml.flat",
+        "source": "C:\\Users\\Hariharan\\.gradle\\daemon\\8.13\\com.smartexpense.android.app-main-95:\\layout\\item_chat_message.xml"
+    },
+    {
+        "merged": "C:\\Users\\Hariharan\\.gradle\\daemon\\8.13\\com.smartexpense.android.app-debug-93:\\drawable_ic_mic.xml.flat",
+        "source": "C:\\Users\\Hariharan\\.gradle\\daemon\\8.13\\com.smartexpense.android.app-main-95:\\drawable\\ic_mic.xml"
+    },
+    {
+        "merged": "C:\\Users\\Hariharan\\.gradle\\daemon\\8.13\\com.smartexpense.android.app-debug-93:\\drawable_bg_badge.xml.flat",
+        "source": "C:\\Users\\Hariharan\\.gradle\\daemon\\8.13\\com.smartexpense.android.app-main-95:\\drawable\\bg_badge.xml"
+    },
+    {
+        "merged": "C:\\Users\\Hariharan\\.gradle\\daemon\\8.13\\com.smartexpense.android.app-debug-93:\\drawable_bg_chat_input.xml.flat",
+        "source": "C:\\Users\\Hariharan\\.gradle\\daemon\\8.13\\com.smartexpense.android.app-main-95:\\drawable\\bg_chat_input.xml"
+    },
+    {
+        "merged": "C:\\Users\\Hariharan\\.gradle\\daemon\\8.13\\com.smartexpense.android.app-debug-93:\\drawable_bg_category_icon.xml.flat",
+        "source": "C:\\Users\\Hariharan\\.gradle\\daemon\\8.13\\com.smartexpense.android.app-main-95:\\drawable\\bg_category_icon.xml"
+    },
+    {
+        "merged": "C:\\Users\\Hariharan\\.gradle\\daemon\\8.13\\com.smartexpense.android.app-debug-93:\\color_chat_filter_chip_bg.xml.flat",
+        "source": "C:\\Users\\Hariharan\\.gradle\\daemon\\8.13\\com.smartexpense.android.app-main-95:\\color\\chat_filter_chip_bg.xml"
+    },
+    {
+        "merged": "C:\\Users\\Hariharan\\.gradle\\daemon\\8.13\\com.smartexpense.android.app-debug-93:\\drawable_bg_companion_bubble.xml.flat",
+        "source": "C:\\Users\\Hariharan\\.gradle\\daemon\\8.13\\com.smartexpense.android.app-main-95:\\drawable\\bg_companion_bubble.xml"
+    },
+    {
+        "merged": "C:\\Users\\Hariharan\\.gradle\\daemon\\8.13\\com.smartexpense.android.app-debug-93:\\layout_activity_voice_entry.xml.flat",
+        "source": "C:\\Users\\Hariharan\\.gradle\\daemon\\8.13\\com.smartexpense.android.app-main-95:\\layout\\activity_voice_entry.xml"
+    },
+    {
+        "merged": "C:\\Users\\Hariharan\\.gradle\\daemon\\8.13\\com.smartexpense.android.app-debug-93:\\drawable_bg_gradient_splash.xml.flat",
+        "source": "C:\\Users\\Hariharan\\.gradle\\daemon\\8.13\\com.smartexpense.android.app-main-95:\\drawable\\bg_gradient_splash.xml"
+    },
+    {
+        "merged": "com.smartexpense.android.app-debug-93:/layout_bottom_sheet_ai_chatbot.xml.flat",
+        "source": "com.smartexpense.android.app-main-95:/layout/bottom_sheet_ai_chatbot.xml"
+    },
+    {
+        "merged": "C:\\Users\\Hariharan\\.gradle\\daemon\\8.13\\com.smartexpense.android.app-debug-93:\\drawable_ic_nav_expenses.xml.flat",
+        "source": "C:\\Users\\Hariharan\\.gradle\\daemon\\8.13\\com.smartexpense.android.app-main-95:\\drawable\\ic_nav_expenses.xml"
+    },
+    {
+        "merged": "C:\\Users\\Hariharan\\.gradle\\daemon\\8.13\\com.smartexpense.android.app-debug-93:\\layout_activity_login.xml.flat",
+        "source": "C:\\Users\\Hariharan\\.gradle\\daemon\\8.13\\com.smartexpense.android.app-main-95:\\layout\\activity_login.xml"
+    },
+    {
+        "merged": "C:\\Users\\Hariharan\\.gradle\\daemon\\8.13\\com.smartexpense.android.app-debug-93:\\drawable_bg_gradient_card.xml.flat",
+        "source": "C:\\Users\\Hariharan\\.gradle\\daemon\\8.13\\com.smartexpense.android.app-main-95:\\drawable\\bg_gradient_card.xml"
+    },
+    {
+        "merged": "C:\\Users\\Hariharan\\.gradle\\daemon\\8.13\\com.smartexpense.android.app-debug-93:\\drawable_ic_add.xml.flat",
+        "source": "C:\\Users\\Hariharan\\.gradle\\daemon\\8.13\\com.smartexpense.android.app-main-95:\\drawable\\ic_add.xml"
+    },
+    {
+        "merged": "C:\\Users\\Hariharan\\.gradle\\daemon\\8.13\\com.smartexpense.android.app-debug-93:\\drawable_onboarding_ai.xml.flat",
+        "source": "C:\\Users\\Hariharan\\.gradle\\daemon\\8.13\\com.smartexpense.android.app-main-95:\\drawable\\onboarding_ai.xml"
+    },
+    {
+        "merged": "C:\\Users\\Hariharan\\.gradle\\daemon\\8.13\\com.smartexpense.android.app-debug-93:\\layout_item_onboarding_page.xml.flat",
+        "source": "C:\\Users\\Hariharan\\.gradle\\daemon\\8.13\\com.smartexpense.android.app-main-95:\\layout\\item_onboarding_page.xml"
+    },
+    {
+        "merged": "C:\\Users\\Hariharan\\.gradle\\daemon\\8.13\\com.smartexpense.android.app-debug-93:\\drawable_ic_cat_others.xml.flat",
+        "source": "C:\\Users\\Hariharan\\.gradle\\daemon\\8.13\\com.smartexpense.android.app-main-95:\\drawable\\ic_cat_others.xml"
+    },
+    {
+        "merged": "C:\\Users\\Hariharan\\.gradle\\daemon\\8.13\\com.smartexpense.android.app-debug-93:\\drawable_ic_nav_reports.xml.flat",
+        "source": "C:\\Users\\Hariharan\\.gradle\\daemon\\8.13\\com.smartexpense.android.app-main-95:\\drawable\\ic_nav_reports.xml"
+    },
+    {
+        "merged": "C:\\Users\\Hariharan\\.gradle\\daemon\\8.13\\com.smartexpense.android.app-debug-93:\\mipmap-xxhdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\Hariharan\\.gradle\\daemon\\8.13\\com.smartexpense.android.app-main-95:\\mipmap-xxhdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "C:\\Users\\Hariharan\\.gradle\\daemon\\8.13\\com.smartexpense.android.app-debug-93:\\drawable_onboarding_chart.xml.flat",
+        "source": "C:\\Users\\Hariharan\\.gradle\\daemon\\8.13\\com.smartexpense.android.app-main-95:\\drawable\\onboarding_chart.xml"
+    },
+    {
+        "merged": "C:\\Users\\Hariharan\\.gradle\\daemon\\8.13\\com.smartexpense.android.app-debug-93:\\layout_activity_register.xml.flat",
+        "source": "C:\\Users\\Hariharan\\.gradle\\daemon\\8.13\\com.smartexpense.android.app-main-95:\\layout\\activity_register.xml"
+    },
+    {
+        "merged": "C:\\Users\\Hariharan\\.gradle\\daemon\\8.13\\com.smartexpense.android.app-debug-93:\\drawable_ic_cat_grocery.xml.flat",
+        "source": "C:\\Users\\Hariharan\\.gradle\\daemon\\8.13\\com.smartexpense.android.app-main-95:\\drawable\\ic_cat_grocery.xml"
+    },
+    {
+        "merged": "C:\\Users\\Hariharan\\.gradle\\daemon\\8.13\\com.smartexpense.android.app-debug-93:\\drawable_bg_scanner_reticle.xml.flat",
+        "source": "C:\\Users\\Hariharan\\.gradle\\daemon\\8.13\\com.smartexpense.android.app-main-95:\\drawable\\bg_scanner_reticle.xml"
+    },
+    {
+        "merged": "C:\\Users\\Hariharan\\.gradle\\daemon\\8.13\\com.smartexpense.android.app-debug-93:\\mipmap-hdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\Hariharan\\.gradle\\daemon\\8.13\\com.smartexpense.android.app-main-95:\\mipmap-hdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "C:\\Users\\Hariharan\\.gradle\\daemon\\8.13\\com.smartexpense.android.app-debug-93:\\drawable_bg_chat_drag_handle.xml.flat",
+        "source": "C:\\Users\\Hariharan\\.gradle\\daemon\\8.13\\com.smartexpense.android.app-main-95:\\drawable\\bg_chat_drag_handle.xml"
+    },
+    {
+        "merged": "C:\\Users\\Hariharan\\.gradle\\daemon\\8.13\\com.smartexpense.android.app-debug-93:\\drawable_ic_category.xml.flat",
+        "source": "C:\\Users\\Hariharan\\.gradle\\daemon\\8.13\\com.smartexpense.android.app-main-95:\\drawable\\ic_category.xml"
+    },
+    {
+        "merged": "C:\\Users\\Hariharan\\.gradle\\daemon\\8.13\\com.smartexpense.android.app-debug-93:\\drawable_ic_lock.xml.flat",
+        "source": "C:\\Users\\Hariharan\\.gradle\\daemon\\8.13\\com.smartexpense.android.app-main-95:\\drawable\\ic_lock.xml"
+    },
+    {
+        "merged": "C:\\Users\\Hariharan\\.gradle\\daemon\\8.13\\com.smartexpense.android.app-debug-93:\\menu_bottom_nav_menu.xml.flat",
+        "source": "C:\\Users\\Hariharan\\.gradle\\daemon\\8.13\\com.smartexpense.android.app-main-95:\\menu\\bottom_nav_menu.xml"
+    },
+    {
+        "merged": "C:\\Users\\Hariharan\\.gradle\\daemon\\8.13\\com.smartexpense.android.app-debug-93:\\drawable_ic_email.xml.flat",
+        "source": "C:\\Users\\Hariharan\\.gradle\\daemon\\8.13\\com.smartexpense.android.app-main-95:\\drawable\\ic_email.xml"
+    },
+    {
+        "merged": "C:\\Users\\Hariharan\\.gradle\\daemon\\8.13\\com.smartexpense.android.app-debug-93:\\drawable_ic_ai_bot.xml.flat",
+        "source": "C:\\Users\\Hariharan\\.gradle\\daemon\\8.13\\com.smartexpense.android.app-main-95:\\drawable\\ic_ai_bot.xml"
+    },
+    {
+        "merged": "C:\\Users\\Hariharan\\.gradle\\daemon\\8.13\\com.smartexpense.android.app-debug-93:\\drawable_ic_volume_off.xml.flat",
+        "source": "C:\\Users\\Hariharan\\.gradle\\daemon\\8.13\\com.smartexpense.android.app-main-95:\\drawable\\ic_volume_off.xml"
+    },
+    {
+        "merged": "C:\\Users\\Hariharan\\.gradle\\daemon\\8.13\\com.smartexpense.android.app-debug-93:\\drawable_ic_cat_shopping.xml.flat",
+        "source": "C:\\Users\\Hariharan\\.gradle\\daemon\\8.13\\com.smartexpense.android.app-main-95:\\drawable\\ic_cat_shopping.xml"
+    },
+    {
+        "merged": "C:\\Users\\Hariharan\\.gradle\\daemon\\8.13\\com.smartexpense.android.app-debug-93:\\color_chat_filter_chip_text.xml.flat",
+        "source": "C:\\Users\\Hariharan\\.gradle\\daemon\\8.13\\com.smartexpense.android.app-main-95:\\color\\chat_filter_chip_text.xml"
+    },
+    {
+        "merged": "C:\\Users\\Hariharan\\.gradle\\daemon\\8.13\\com.smartexpense.android.app-debug-93:\\drawable_ic_nav_settings.xml.flat",
+        "source": "C:\\Users\\Hariharan\\.gradle\\daemon\\8.13\\com.smartexpense.android.app-main-95:\\drawable\\ic_nav_settings.xml"
+    },
+    {
+        "merged": "C:\\Users\\Hariharan\\.gradle\\daemon\\8.13\\com.smartexpense.android.app-debug-93:\\drawable_ic_cat_travel.xml.flat",
+        "source": "C:\\Users\\Hariharan\\.gradle\\daemon\\8.13\\com.smartexpense.android.app-main-95:\\drawable\\ic_cat_travel.xml"
+    },
+    {
+        "merged": "C:\\Users\\Hariharan\\.gradle\\daemon\\8.13\\com.smartexpense.android.app-debug-93:\\drawable_bg_chat_bubble_user.xml.flat",
+        "source": "C:\\Users\\Hariharan\\.gradle\\daemon\\8.13\\com.smartexpense.android.app-main-95:\\drawable\\bg_chat_bubble_user.xml"
+    },
+    {
+        "merged": "C:\\Users\\Hariharan\\.gradle\\daemon\\8.13\\com.smartexpense.android.app-debug-93:\\layout_item_dropdown.xml.flat",
+        "source": "C:\\Users\\Hariharan\\.gradle\\daemon\\8.13\\com.smartexpense.android.app-main-95:\\layout\\item_dropdown.xml"
+    },
+    {
+        "merged": "C:\\Users\\Hariharan\\.gradle\\daemon\\8.13\\com.smartexpense.android.app-debug-93:\\drawable_ic_mic_active.xml.flat",
+        "source": "C:\\Users\\Hariharan\\.gradle\\daemon\\8.13\\com.smartexpense.android.app-main-95:\\drawable\\ic_mic_active.xml"
+    },
+    {
+        "merged": "C:\\Users\\Hariharan\\.gradle\\daemon\\8.13\\com.smartexpense.android.app-debug-93:\\drawable_ic_notification.xml.flat",
+        "source": "C:\\Users\\Hariharan\\.gradle\\daemon\\8.13\\com.smartexpense.android.app-main-95:\\drawable\\ic_notification.xml"
+    },
+    {
+        "merged": "C:\\Users\\Hariharan\\.gradle\\daemon\\8.13\\com.smartexpense.android.app-debug-93:\\drawable_ic_receipt_text.xml.flat",
+        "source": "C:\\Users\\Hariharan\\.gradle\\daemon\\8.13\\com.smartexpense.android.app-main-95:\\drawable\\ic_receipt_text.xml"
+    },
+    {
+        "merged": "C:\\Users\\Hariharan\\.gradle\\daemon\\8.13\\com.smartexpense.android.app-debug-93:\\drawable_ic_target.xml.flat",
+        "source": "C:\\Users\\Hariharan\\.gradle\\daemon\\8.13\\com.smartexpense.android.app-main-95:\\drawable\\ic_target.xml"
+    },
+    {
+        "merged": "C:\\Users\\Hariharan\\.gradle\\daemon\\8.13\\com.smartexpense.android.app-debug-93:\\drawable_ic_pending.xml.flat",
+        "source": "C:\\Users\\Hariharan\\.gradle\\daemon\\8.13\\com.smartexpense.android.app-main-95:\\drawable\\ic_pending.xml"
+    },
+    {
+        "merged": "C:\\Users\\Hariharan\\.gradle\\daemon\\8.13\\com.smartexpense.android.app-debug-93:\\drawable_ic_currency_rupee.xml.flat",
+        "source": "C:\\Users\\Hariharan\\.gradle\\daemon\\8.13\\com.smartexpense.android.app-main-95:\\drawable\\ic_currency_rupee.xml"
+    },
+    {
+        "merged": "C:\\Users\\Hariharan\\.gradle\\daemon\\8.13\\com.smartexpense.android.app-debug-93:\\drawable_ic_cat_fuel.xml.flat",
+        "source": "C:\\Users\\Hariharan\\.gradle\\daemon\\8.13\\com.smartexpense.android.app-main-95:\\drawable\\ic_cat_fuel.xml"
+    },
+    {
+        "merged": "C:\\Users\\Hariharan\\.gradle\\daemon\\8.13\\com.smartexpense.android.app-debug-93:\\drawable_bg_chat_bubble_bot.xml.flat",
+        "source": "C:\\Users\\Hariharan\\.gradle\\daemon\\8.13\\com.smartexpense.android.app-main-95:\\drawable\\bg_chat_bubble_bot.xml"
+    },
+    {
+        "merged": "C:\\Users\\Hariharan\\.gradle\\daemon\\8.13\\com.smartexpense.android.app-debug-93:\\drawable_ic_resource_placeholder.xml.flat",
+        "source": "C:\\Users\\Hariharan\\.gradle\\daemon\\8.13\\com.smartexpense.android.app-main-95:\\drawable\\ic_resource_placeholder.xml"
+    },
+    {
+        "merged": "C:\\Users\\Hariharan\\.gradle\\daemon\\8.13\\com.smartexpense.android.app-debug-93:\\layout_item_expense.xml.flat",
+        "source": "C:\\Users\\Hariharan\\.gradle\\daemon\\8.13\\com.smartexpense.android.app-main-95:\\layout\\item_expense.xml"
+    },
+    {
+        "merged": "C:\\Users\\Hariharan\\.gradle\\daemon\\8.13\\com.smartexpense.android.app-debug-93:\\layout_fragment_settings.xml.flat",
+        "source": "C:\\Users\\Hariharan\\.gradle\\daemon\\8.13\\com.smartexpense.android.app-main-95:\\layout\\fragment_settings.xml"
+    },
+    {
+        "merged": "C:\\Users\\Hariharan\\.gradle\\daemon\\8.13\\com.smartexpense.android.app-debug-93:\\color_bottom_nav_color.xml.flat",
+        "source": "C:\\Users\\Hariharan\\.gradle\\daemon\\8.13\\com.smartexpense.android.app-main-95:\\color\\bottom_nav_color.xml"
+    },
+    {
+        "merged": "C:\\Users\\Hariharan\\.gradle\\daemon\\8.13\\com.smartexpense.android.app-debug-93:\\drawable_bg_gradient_header.xml.flat",
+        "source": "C:\\Users\\Hariharan\\.gradle\\daemon\\8.13\\com.smartexpense.android.app-main-95:\\drawable\\bg_gradient_header.xml"
+    },
+    {
+        "merged": "C:\\Users\\Hariharan\\.gradle\\daemon\\8.13\\com.smartexpense.android.app-debug-93:\\drawable_shorekeeper_standing.png.flat",
+        "source": "C:\\Users\\Hariharan\\.gradle\\daemon\\8.13\\com.smartexpense.android.app-main-95:\\drawable\\shorekeeper_standing.png"
+    },
+    {
+        "merged": "C:\\Users\\Hariharan\\.gradle\\daemon\\8.13\\com.smartexpense.android.app-debug-93:\\layout_activity_onboarding.xml.flat",
+        "source": "C:\\Users\\Hariharan\\.gradle\\daemon\\8.13\\com.smartexpense.android.app-main-95:\\layout\\activity_onboarding.xml"
+    },
+    {
+        "merged": "C:\\Users\\Hariharan\\.gradle\\daemon\\8.13\\com.smartexpense.android.app-debug-93:\\drawable_ic_calendar_days.xml.flat",
+        "source": "C:\\Users\\Hariharan\\.gradle\\daemon\\8.13\\com.smartexpense.android.app-main-95:\\drawable\\ic_calendar_days.xml"
+    },
+    {
+        "merged": "C:\\Users\\Hariharan\\.gradle\\daemon\\8.13\\com.smartexpense.android.app-debug-93:\\mipmap-xxxhdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\Hariharan\\.gradle\\daemon\\8.13\\com.smartexpense.android.app-main-95:\\mipmap-xxxhdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "C:\\Users\\Hariharan\\.gradle\\daemon\\8.13\\com.smartexpense.android.app-debug-93:\\layout_bottom_sheet_forgot_password.xml.flat",
+        "source": "C:\\Users\\Hariharan\\.gradle\\daemon\\8.13\\com.smartexpense.android.app-main-95:\\layout\\bottom_sheet_forgot_password.xml"
+    },
+    {
+        "merged": "C:\\Users\\Hariharan\\.gradle\\daemon\\8.13\\com.smartexpense.android.app-debug-93:\\layout_bottom_sheet_ai_chatbot.xml.flat",
+        "source": "C:\\Users\\Hariharan\\.gradle\\daemon\\8.13\\com.smartexpense.android.app-main-95:\\layout\\bottom_sheet_ai_chatbot.xml"
+    },
+    {
+        "merged": "C:\\Users\\Hariharan\\.gradle\\daemon\\8.13\\com.smartexpense.android.app-debug-93:\\xml_data_extraction_rules.xml.flat",
+        "source": "C:\\Users\\Hariharan\\.gradle\\daemon\\8.13\\com.smartexpense.android.app-main-95:\\xml\\data_extraction_rules.xml"
+    },
+    {
+        "merged": "C:\\Users\\Hariharan\\.gradle\\daemon\\8.13\\com.smartexpense.android.app-debug-93:\\layout_fragment_expenses.xml.flat",
+        "source": "C:\\Users\\Hariharan\\.gradle\\daemon\\8.13\\com.smartexpense.android.app-main-95:\\layout\\fragment_expenses.xml"
+    },
+    {
+        "merged": "C:\\Users\\Hariharan\\.gradle\\daemon\\8.13\\com.smartexpense.android.app-debug-93:\\drawable_ic_cat_education.xml.flat",
+        "source": "C:\\Users\\Hariharan\\.gradle\\daemon\\8.13\\com.smartexpense.android.app-main-95:\\drawable\\ic_cat_education.xml"
+    },
+    {
+        "merged": "C:\\Users\\Hariharan\\.gradle\\daemon\\8.13\\com.smartexpense.android.app-debug-93:\\drawable_ic_splash_logo.png.flat",
+        "source": "C:\\Users\\Hariharan\\.gradle\\daemon\\8.13\\com.smartexpense.android.app-main-95:\\drawable\\ic_splash_logo.png"
+    },
+    {
+        "merged": "C:\\Users\\Hariharan\\.gradle\\daemon\\8.13\\com.smartexpense.android.app-debug-93:\\drawable_bg_auth_tab_active.xml.flat",
+        "source": "C:\\Users\\Hariharan\\.gradle\\daemon\\8.13\\com.smartexpense.android.app-main-95:\\drawable\\bg_auth_tab_active.xml"
+    },
+    {
+        "merged": "C:\\Users\\Hariharan\\.gradle\\daemon\\8.13\\com.smartexpense.android.app-debug-93:\\drawable_shorekeeper_sitting.png.flat",
+        "source": "C:\\Users\\Hariharan\\.gradle\\daemon\\8.13\\com.smartexpense.android.app-main-95:\\drawable\\shorekeeper_sitting.png"
+    },
+    {
+        "merged": "C:\\Users\\Hariharan\\.gradle\\daemon\\8.13\\com.smartexpense.android.app-debug-93:\\drawable_ic_nav_budget.xml.flat",
+        "source": "C:\\Users\\Hariharan\\.gradle\\daemon\\8.13\\com.smartexpense.android.app-main-95:\\drawable\\ic_nav_budget.xml"
+    },
+    {
+        "merged": "C:\\Users\\Hariharan\\.gradle\\daemon\\8.13\\com.smartexpense.android.app-debug-93:\\drawable_bg_bottom_sheet_chat.xml.flat",
+        "source": "C:\\Users\\Hariharan\\.gradle\\daemon\\8.13\\com.smartexpense.android.app-main-95:\\drawable\\bg_bottom_sheet_chat.xml"
+    },
+    {
+        "merged": "C:\\Users\\Hariharan\\.gradle\\daemon\\8.13\\com.smartexpense.android.app-debug-93:\\drawable_ic_send.xml.flat",
+        "source": "C:\\Users\\Hariharan\\.gradle\\daemon\\8.13\\com.smartexpense.android.app-main-95:\\drawable\\ic_send.xml"
+    },
+    {
+        "merged": "C:\\Users\\Hariharan\\.gradle\\daemon\\8.13\\com.smartexpense.android.app-debug-93:\\layout_fragment_budget.xml.flat",
+        "source": "C:\\Users\\Hariharan\\.gradle\\daemon\\8.13\\com.smartexpense.android.app-main-95:\\layout\\fragment_budget.xml"
+    },
+    {
+        "merged": "C:\\Users\\Hariharan\\.gradle\\daemon\\8.13\\com.smartexpense.android.app-debug-93:\\drawable_ic_cat_medical.xml.flat",
+        "source": "C:\\Users\\Hariharan\\.gradle\\daemon\\8.13\\com.smartexpense.android.app-main-95:\\drawable\\ic_cat_medical.xml"
+    },
+    {
+        "merged": "C:\\Users\\Hariharan\\.gradle\\daemon\\8.13\\com.smartexpense.android.app-debug-93:\\drawable_bg_companion_shadow.xml.flat",
+        "source": "C:\\Users\\Hariharan\\.gradle\\daemon\\8.13\\com.smartexpense.android.app-main-95:\\drawable\\bg_companion_shadow.xml"
+    },
+    {
+        "merged": "C:\\Users\\Hariharan\\.gradle\\daemon\\8.13\\com.smartexpense.android.app-debug-93:\\layout_activity_ocr_scanner.xml.flat",
+        "source": "C:\\Users\\Hariharan\\.gradle\\daemon\\8.13\\com.smartexpense.android.app-main-95:\\layout\\activity_ocr_scanner.xml"
+    },
+    {
+        "merged": "C:\\Users\\Hariharan\\.gradle\\daemon\\8.13\\com.smartexpense.android.app-debug-93:\\layout_item_category_budget.xml.flat",
+        "source": "C:\\Users\\Hariharan\\.gradle\\daemon\\8.13\\com.smartexpense.android.app-main-95:\\layout\\item_category_budget.xml"
+    },
+    {
+        "merged": "C:\\Users\\Hariharan\\.gradle\\daemon\\8.13\\com.smartexpense.android.app-debug-93:\\drawable_ic_user_placeholder.xml.flat",
+        "source": "C:\\Users\\Hariharan\\.gradle\\daemon\\8.13\\com.smartexpense.android.app-main-95:\\drawable\\ic_user_placeholder.xml"
+    },
+    {
+        "merged": "C:\\Users\\Hariharan\\.gradle\\daemon\\8.13\\com.smartexpense.android.app-debug-93:\\mipmap-mdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\Hariharan\\.gradle\\daemon\\8.13\\com.smartexpense.android.app-main-95:\\mipmap-mdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "C:\\Users\\Hariharan\\.gradle\\daemon\\8.13\\com.smartexpense.android.app-debug-93:\\drawable_ic_arrow_back.xml.flat",
+        "source": "C:\\Users\\Hariharan\\.gradle\\daemon\\8.13\\com.smartexpense.android.app-main-95:\\drawable\\ic_arrow_back.xml"
+    },
+    {
+        "merged": "C:\\Users\\Hariharan\\.gradle\\daemon\\8.13\\com.smartexpense.android.app-debug-93:\\mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\Hariharan\\.gradle\\daemon\\8.13\\com.smartexpense.android.app-main-95:\\mipmap-xhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\Hariharan\\.gradle\\daemon\\8.13\\com.smartexpense.android.app-debug-93:\\drawable_bg_tab_container.xml.flat",
+        "source": "C:\\Users\\Hariharan\\.gradle\\daemon\\8.13\\com.smartexpense.android.app-main-95:\\drawable\\bg_tab_container.xml"
+    },
+    {
+        "merged": "C:\\Users\\Hariharan\\.gradle\\daemon\\8.13\\com.smartexpense.android.app-debug-93:\\drawable_bg_capture_button.xml.flat",
+        "source": "C:\\Users\\Hariharan\\.gradle\\daemon\\8.13\\com.smartexpense.android.app-main-95:\\drawable\\bg_capture_button.xml"
+    }
+]

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.smartexpense.android.MultiUserDataIsolationTest" tests="6" skipped="0" failures="0" errors="0" timestamp="2026-10-25T16:43:11.111Z" hostname="DELL" time="0.118">
+  <properties/>
+  <testcase name="testRecoveryOfDefaultUserAndUnassignedSmsExpenses" classname="com.smartexpense.android.MultiUserDataIsolationTest" time="0.079"/>
+  <testcase name="testSmsTransactionAutoSaveAndIsolation" classname="com.smartexpense.android.MultiUserDataIsolationTest" time="0.011"/>
+  <testcase name="testTwoAccountsExpenseIsolation" classname="com.smartexpense.android.MultiUserDataIsolationTest" time="0.004"/>
+  <testcase name="testDemoModeSeparation" classname="com.smartexpense.android.MultiUserDataIsolationTest" time="0.022"/>
+  <testcase name="testSmsTrackingInDemoMode" classname="com.smartexpense.android.MultiUserDataIsolationTest" time="0.001"/>
+  <testcase name="testBudgetIsolationBetweenAccounts" classname="com.smartexpense.android.MultiUserDataIsolationTest" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">AI ਸਮਾਰਟ ਖਰਚਾ ਟਰੈਕਰ</string>
+    <string name="app_tagline">ਸਮਾਰਟ ਖਰਚਾ, ਬਿਹਤਰ ਬੱਚਤ</string>
+    <string name="login">ਲੌਗਇਨ</string>
+    <string name="register">ਰਜਿਸਟਰ</string>
+    <string name="email">ਈਮੇਲ</string>
+    <string name="password">ਪਾਸਵਰਡ</string>
+    <string name="dashboard">ਡੈਸ਼ਬੋਰਡ</string>
+    <string name="total_expenses">ਕੁੱਲ ਖਰਚ</string>
+    <string name="monthly_budget">ਮਾਸਿਕ ਬਜਟ</string>
+    <string name="expenses">ਖਰਚ</string>
+    <string name="add_expense">ਖਰਚਾ ਜੋੜੋ</string>
+    <string name="amount">ਰਕਮ</string>
+    <string name="category">ਸ਼੍ਰੇਣੀ</string>
+    <string name="food">ਭੋਜਨ</string>
+    <string name="grocery">ਕਰਿਆਨਾ</string>
+    <string name="shopping">ਖਰੀਦਾਰੀ</string>
+    <string name="travel">ਯਾਤਰਾ</string>
+    <string name="medical">ਮੈਡੀਕਲ</string>
+    <string name="education">ਸਿੱਖਿਆ</string>
+    <string name="entertainment">ਮਨੋਰੰਜਨ</string>
+    <string name="bills">ਬਿੱਲ</string>
+    <string name="fuel">ਬਾਲਣ</string>
+    <string name="others">ਹੋਰ</string>
+    <string name="budget">ਬਜਟ</string>
+    <string name="reports">ਰਿਪੋਰਟਾਂ</string>
+    <string name="settings">ਸੈਟਿੰਗਾਂ</string>
+    <string name="language">ਭਾਸ਼ਾ</string>
+    <string name="save">ਸੁਰੱਖਿਅਤ</string>
+    <string name="cancel">ਰੱਦ</string>
+    <string name="search">ਖੋਜੋ</string>
+    <string name="logout">ਲੌਗਆਉਟ</string>
+    <string name="get_started">ਸ਼ੁਰੂ ਕਰੋ</string>
+    <string name="currency_inr">₹</string>
+    <string name="loading">ਲੋਡ ਹੋ ਰਿਹਾ ਹੈ…</string>
+    <string name="error_network">ਇੰਟਰਨੈੱਟ ਕਨੈਕਸ਼ਨ ਨਹੀਂ ਹੈ</string>
+</resources>

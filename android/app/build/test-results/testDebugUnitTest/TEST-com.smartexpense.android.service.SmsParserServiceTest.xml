@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.smartexpense.android.service.SmsParserServiceTest" tests="19" skipped="0" failures="0" errors="0" timestamp="2026-10-25T16:43:11.235Z" hostname="DELL" time="0.05">
+  <properties/>
+  <testcase name="testMtcBusTravel" classname="com.smartexpense.android.service.SmsParserServiceTest" time="0.013"/>
+  <testcase name="testVpaMerchantSms" classname="com.smartexpense.android.service.SmsParserServiceTest" time="0.001"/>
+  <testcase name="testSpectaclesEyewearKeyword" classname="com.smartexpense.android.service.SmsParserServiceTest" time="0.002"/>
+  <testcase name="testAxisCardSpendSms" classname="com.smartexpense.android.service.SmsParserServiceTest" time="0.002"/>
+  <testcase name="testPhonePeUpiSms" classname="com.smartexpense.android.service.SmsParserServiceTest" time="0.002"/>
+  <testcase name="testSbiUpiDebitSms" classname="com.smartexpense.android.service.SmsParserServiceTest" time="0.002"/>
+  <testcase name="testAavinMilkGrocery" classname="com.smartexpense.android.service.SmsParserServiceTest" time="0.002"/>
+  <testcase name="testPersonalNameSellerWithItemContext" classname="com.smartexpense.android.service.SmsParserServiceTest" time="0.002"/>
+  <testcase name="testPaytmPaymentsBankSms" classname="com.smartexpense.android.service.SmsParserServiceTest" time="0.001"/>
+  <testcase name="testPromotionalOfferIgnored" classname="com.smartexpense.android.service.SmsParserServiceTest" time="0.001"/>
+  <testcase name="testPersonalNameP2PTransfer" classname="com.smartexpense.android.service.SmsParserServiceTest" time="0.002"/>
+  <testcase name="testDeduplicationFingerprintConsistency" classname="com.smartexpense.android.service.SmsParserServiceTest" time="0.003"/>
+  <testcase name="testIciciCreditSms" classname="com.smartexpense.android.service.SmsParserServiceTest" time="0.003"/>
+  <testcase name="testOtpIgnored" classname="com.smartexpense.android.service.SmsParserServiceTest" time="0.0"/>
+  <testcase name="testCmwssbMetroWater" classname="com.smartexpense.android.service.SmsParserServiceTest" time="0.002"/>
+  <testcase name="testPinkyOpticsCategorizedAsMedical" classname="com.smartexpense.android.service.SmsParserServiceTest" time="0.003"/>
+  <testcase name="testHdfcDebitSms" classname="com.smartexpense.android.service.SmsParserServiceTest" time="0.001"/>
+  <testcase name="testCumtaMetroTravel" classname="com.smartexpense.android.service.SmsParserServiceTest" time="0.001"/>
+  <testcase name="testTangedcoElectricityBill" classname="com.smartexpense.android.service.SmsParserServiceTest" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

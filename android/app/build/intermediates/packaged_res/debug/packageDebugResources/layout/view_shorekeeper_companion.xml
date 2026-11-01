@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    android:clipChildren="false"
+    android:clipToPadding="false">
+
+    <!-- Mini Speech Pill -->
+    <TextView
+        android:id="@+id/tv_speech_bubble"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bg_companion_bubble"
+        android:paddingStart="10dp"
+        android:paddingEnd="10dp"
+        android:paddingTop="3dp"
+        android:paddingBottom="3dp"
+        android:layout_marginBottom="4dp"
+        android:text="✨ Shorekeeper"
+        android:textColor="@color/text_primary"
+        android:textSize="10.5sp"
+        android:textStyle="bold"
+        android:elevation="4dp"
+        android:visibility="visible"
+        android:maxLines="1" />
+
+    <!-- Character Sprite & Shadow Container -->
+    <FrameLayout
+        android:id="@+id/layout_sprite_container"
+        android:layout_width="72dp"
+        android:layout_height="80dp"
+        android:clipChildren="false"
+        android:clipToPadding="false">
+
+        <!-- Ground Shadow -->
+        <View
+            android:id="@+id/v_shadow"
+            android:layout_width="46dp"
+            android:layout_height="9dp"
+            android:layout_gravity="bottom|center_horizontal"
+            android:layout_marginBottom="2dp"
+            android:background="@drawable/bg_companion_shadow" />
+
+        <!-- Shorekeeper Character Sprite -->
+        <ImageView
+            android:id="@+id/iv_companion"
+            android:layout_width="70dp"
+            android:layout_height="76dp"
+            android:layout_gravity="center"
+            android:src="@drawable/shorekeeper_sitting"
+            android:scaleType="fitCenter"
+            android:contentDescription="Shorekeeper Virtual Companion" />
+    </FrameLayout>
+</LinearLayout>

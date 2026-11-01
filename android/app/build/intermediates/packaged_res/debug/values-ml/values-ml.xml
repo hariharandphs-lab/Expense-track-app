@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="add_expense">ചെലവ് ചേർക്കുക</string>
+    <string name="amount">തുക</string>
+    <string name="app_name">AI സ്മാർട്ട് ചെലവ് ട്രാക്കർ</string>
+    <string name="app_tagline">സ്മാർട്ട് ചെലവ്, മികച്ച സമ്പാദ്യം</string>
+    <string name="bills">ബില്ലുകൾ</string>
+    <string name="budget">ബജറ്റ്</string>
+    <string name="cancel">റദ്ദാക്കുക</string>
+    <string name="category">വിഭാഗം</string>
+    <string name="currency_inr">₹</string>
+    <string name="dashboard">ഡാഷ്ബോർഡ്</string>
+    <string name="education">വിദ്യാഭ്യാസം</string>
+    <string name="email">ഇ-മെയിൽ</string>
+    <string name="entertainment">വിനോദം</string>
+    <string name="error_network">ഇന്റർനെറ്റ് കണക്ഷൻ ഇല്ല</string>
+    <string name="expenses">ചെലവുകൾ</string>
+    <string name="food">ഭക്ഷണം</string>
+    <string name="fuel">ഇന്ധനം</string>
+    <string name="get_started">ആരംഭിക്കുക</string>
+    <string name="grocery">ഗ്രോസറി</string>
+    <string name="language">ഭാഷ</string>
+    <string name="loading">ലോഡ് ചെയ്യുന്നു…</string>
+    <string name="login">ലോഗിൻ</string>
+    <string name="logout">ലോഗ് ഔട്ട്</string>
+    <string name="medical">വൈദ്യം</string>
+    <string name="monthly_budget">മാസ ബജറ്റ്</string>
+    <string name="others">മറ്റുള്ളവ</string>
+    <string name="password">പാസ്വേഡ്</string>
+    <string name="register">രജിസ്റ്റർ</string>
+    <string name="remaining_budget">ശേഷിക്കുന്ന ബജറ്റ്</string>
+    <string name="reports">റിപ്പോർട്ടുകൾ</string>
+    <string name="save">സേവ് ചെയ്യുക</string>
+    <string name="search">തിരയുക</string>
+    <string name="settings">ക്രമീകരണങ്ങൾ</string>
+    <string name="shopping">ഷോപ്പിംഗ്</string>
+    <string name="total_expenses">മൊത്തം ചെലവ്</string>
+    <string name="travel">യാത്ര</string>
+</resources>

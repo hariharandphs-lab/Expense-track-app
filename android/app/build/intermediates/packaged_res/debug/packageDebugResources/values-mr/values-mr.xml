@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="add_expense">खर्च जोडा</string>
+    <string name="amount">रक्कम</string>
+    <string name="app_name">AI स्मार्ट खर्च ट्रॅकर</string>
+    <string name="app_tagline">स्मार्ट खर्च, चांगली बचत</string>
+    <string name="bills">बिले</string>
+    <string name="budget">बजेट</string>
+    <string name="cancel">रद्द करा</string>
+    <string name="category">श्रेणी</string>
+    <string name="currency_inr">₹</string>
+    <string name="dashboard">डॅशबोर्ड</string>
+    <string name="education">शिक्षण</string>
+    <string name="email">ईमेल</string>
+    <string name="entertainment">मनोरंजन</string>
+    <string name="error_network">इंटरनेट कनेक्शन नाही</string>
+    <string name="expenses">खर्च</string>
+    <string name="food">अन्न</string>
+    <string name="fuel">इंधन</string>
+    <string name="get_started">सुरू करा</string>
+    <string name="grocery">किराणा</string>
+    <string name="language">भाषा</string>
+    <string name="loading">लोड होत आहे…</string>
+    <string name="login">लॉगिन</string>
+    <string name="logout">लॉगआउट</string>
+    <string name="medical">वैद्यकीय</string>
+    <string name="monthly_budget">मासिक बजेट</string>
+    <string name="others">इतर</string>
+    <string name="password">पासवर्ड</string>
+    <string name="register">नोंदणी</string>
+    <string name="reports">अहवाल</string>
+    <string name="save">जतन करा</string>
+    <string name="search">शोधा</string>
+    <string name="settings">सेटिंग्ज</string>
+    <string name="shopping">खरेदी</string>
+    <string name="total_expenses">एकूण खर्च</string>
+    <string name="travel">प्रवास</string>
+</resources>

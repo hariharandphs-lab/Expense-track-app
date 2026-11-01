@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="add_expense">خرچ شامل کریں</string>
+    <string name="amount">رقم</string>
+    <string name="app_name">AI اسمارٹ خرچ ٹریکر</string>
+    <string name="app_tagline">سمارٹ خرچ، بہتر بچت</string>
+    <string name="bills">بل</string>
+    <string name="budget">بجٹ</string>
+    <string name="cancel">منسوخ</string>
+    <string name="category">زمرہ</string>
+    <string name="currency_inr">₹</string>
+    <string name="dashboard">ڈیش بورڈ</string>
+    <string name="education">تعلیم</string>
+    <string name="email">ای میل</string>
+    <string name="entertainment">تفریح</string>
+    <string name="error_network">انٹرنیٹ کنیکشن نہیں ہے</string>
+    <string name="expenses">اخراجات</string>
+    <string name="food">کھانا</string>
+    <string name="fuel">ایندھن</string>
+    <string name="get_started">شروع کریں</string>
+    <string name="grocery">گروسری</string>
+    <string name="language">زبان</string>
+    <string name="loading">لوڈ ہو رہا ہے…</string>
+    <string name="login">لاگ ان</string>
+    <string name="logout">لاگ آؤٹ</string>
+    <string name="medical">طبی</string>
+    <string name="monthly_budget">ماہانہ بجٹ</string>
+    <string name="others">دیگر</string>
+    <string name="password">پاس ورڈ</string>
+    <string name="register">رجسٹر</string>
+    <string name="reports">رپورٹ</string>
+    <string name="save">محفوظ کریں</string>
+    <string name="search">تلاش</string>
+    <string name="settings">ترتیبات</string>
+    <string name="shopping">خریداری</string>
+    <string name="total_expenses">کل اخراجات</string>
+    <string name="travel">سفر</string>
+</resources>

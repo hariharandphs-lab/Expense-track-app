@@ -1,0 +1,419 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/dark_background">
+
+    <!-- CAMERA PREVIEW CONTAINER -->
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/previewGroup"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="visible">
+
+        <androidx.camera.view.PreviewView
+            android:id="@+id/previewView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:scaleType="fillCenter" />
+
+        <com.smartexpense.android.ui.scanner.LensTextOverlay
+            android:id="@+id/lensTextOverlay"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+        <!-- TOP BAR OVERLAY -->
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:background="#80000000"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageButton
+            android:id="@+id/btnBack"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="16dp"
+            android:background="?attr/selectableItemBackgroundBorderless"
+            android:contentDescription="@string/cancel"
+            android:src="@android:drawable/ic_menu_revert"
+            app:tint="#FFFFFF"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/tvTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Scan receipt"
+            android:textColor="#FFFFFF"
+            android:textSize="17sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="@+id/btnBack"
+            app:layout_constraintStart_toEndOf="@+id/btnBack"
+            app:layout_constraintTop_toTopOf="@+id/btnBack" />
+
+        <!-- LANGUAGE SCRIPT CHIP -->
+        <com.google.android.material.chip.ChipGroup
+            android:id="@+id/chipGroupScript"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="16dp"
+            app:singleSelection="true"
+            app:layout_constraintBottom_toBottomOf="@+id/btnBack"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/btnBack">
+
+            <com.google.android.material.chip.Chip
+                android:id="@+id/chipLatin"
+                style="@style/Widget.Material3.Chip.Filter"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:checked="true"
+                android:text="EN"
+                android:textColor="#FFFFFF"
+                app:chipBackgroundColor="#2653CFB1" />
+
+            <com.google.android.material.chip.Chip
+                android:id="@+id/chipDevanagari"
+                style="@style/Widget.Material3.Chip.Filter"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="हिन्दी"
+                android:textColor="#FFFFFF"
+                app:chipBackgroundColor="#2653CFB1" />
+
+            <com.google.android.material.chip.Chip
+                android:id="@+id/chipTamil"
+                style="@style/Widget.Material3.Chip.Filter"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="தமிழ்"
+                android:textColor="#FFFFFF"
+                app:chipBackgroundColor="#2653CFB1" />
+        </com.google.android.material.chip.ChipGroup>
+
+        <!-- GOOGLE LENS RETICLE FRAME -->
+        <View
+            android:id="@+id/viewReticle"
+            android:layout_width="280dp"
+            android:layout_height="380dp"
+            android:background="@drawable/bg_scanner_reticle"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.42" />
+
+        <!-- SCAN HINT -->
+        <TextView
+            android:id="@+id/tvHint"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:background="#99000000"
+            android:paddingStart="16dp"
+            android:paddingTop="8dp"
+            android:paddingEnd="16dp"
+            android:paddingBottom="8dp"
+            android:text="@string/position_receipt"
+            android:textColor="#E8E8FF"
+            android:textSize="13sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/viewReticle" />
+
+        <!-- BOTTOM CONTROLS OVERLAY -->
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            android:background="#80000000"
+            app:layout_constraintBottom_toBottomOf="parent" />
+
+        <!-- CAPTURE BUTTON -->
+        <ImageButton
+            android:id="@+id/btnCapture"
+            android:layout_width="72dp"
+            android:layout_height="72dp"
+            android:layout_marginBottom="24dp"
+            android:background="@drawable/bg_capture_button"
+            android:contentDescription="@string/capture"
+            android:elevation="6dp"
+            android:src="@android:drawable/ic_menu_camera"
+            app:tint="#FFFFFF"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btnChooseImage"
+            style="@style/Widget.Material3.Button.OutlinedButton"
+            android:layout_width="wrap_content"
+            android:layout_height="48dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginBottom="36dp"
+            android:text="Gallery"
+            android:textColor="#FFFFFF"
+            app:icon="@android:drawable/ic_menu_gallery"
+            app:iconTint="#FFFFFF"
+            app:strokeColor="#80FFFFFF"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <!-- PROGRESS BAR -->
+        <ProgressBar
+            android:id="@+id/progressCapture"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:indeterminate="true"
+            android:indeterminateTint="@color/primary_light"
+            android:visibility="gone"
+            app:layout_constraintBottom_toBottomOf="@+id/btnCapture"
+            app:layout_constraintEnd_toEndOf="@+id/btnCapture"
+            app:layout_constraintStart_toStartOf="@+id/btnCapture"
+            app:layout_constraintTop_toTopOf="@+id/btnCapture" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <!-- REVIEW EXTRACTED DETAILS CONTAINER -->
+    <androidx.core.widget.NestedScrollView
+        android:id="@+id/reviewGroup"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/dark_background"
+        android:fillViewport="true"
+        android:visibility="gone">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="20dp">
+
+            <!-- HEADER -->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Receipt Details"
+                android:textColor="#FFFFFF"
+                android:textSize="22sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tvQualityBadge"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="4dp"
+                android:textColor="#10B981"
+                android:textSize="12sp"
+                android:text="✓ Quality Score: 92/100 · Deskewed (0.8°)" />
+
+            <!-- VALIDATION WARNING BANNER -->
+            <com.google.android.material.card.MaterialCardView
+                android:id="@+id/cardValidationWarning"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="14dp"
+                android:visibility="gone"
+                app:cardBackgroundColor="#26F59E0B"
+                app:strokeColor="#F59E0B"
+                app:strokeWidth="1dp"
+                app:cardCornerRadius="12dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:padding="12dp">
+
+                    <TextView
+                        android:id="@+id/tvValidationWarningTitle"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="⚠️ Total Mismatch Detected"
+                        android:textColor="#F59E0B"
+                        android:textSize="13sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/tvValidationWarningMessage"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="2dp"
+                        android:text="Item sum does not equal receipt total. Please verify before saving."
+                        android:textColor="#E8E8FF"
+                        android:textSize="12sp" />
+                </LinearLayout>
+            </com.google.android.material.card.MaterialCardView>
+
+            <!-- LOW CONFIDENCE NOTICE -->
+            <TextView
+                android:id="@+id/tvLowConfidenceNotice"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:background="#26EF4444"
+                android:padding="10dp"
+                android:text="⚠️ Some fields have low confidence. Please verify before confirming."
+                android:textColor="#EF4444"
+                android:textSize="12sp"
+                android:visibility="gone" />
+
+            <!-- AMOUNT FIELD -->
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/tilAmount"
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:hint="Amount (₹)"
+                app:boxStrokeColor="@color/primary"
+                app:hintTextColor="@color/primary_light">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/etExtractedAmount"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="numberDecimal"
+                    android:textColor="#FFFFFF"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <!-- MERCHANT FIELD -->
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/tilMerchant"
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dp"
+                android:hint="Merchant Name"
+                app:boxStrokeColor="@color/primary"
+                app:hintTextColor="@color/primary_light">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/etExtractedMerchant"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="textCapWords"
+                    android:textColor="#FFFFFF" />
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <!-- CATEGORY DROPDOWN -->
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/tilCategory"
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.ExposedDropdownMenu"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dp"
+                android:hint="AI Suggested Category"
+                app:boxStrokeColor="@color/primary"
+                app:hintTextColor="@color/primary_light">
+
+                <AutoCompleteTextView
+                    android:id="@+id/actvCategory"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="none"
+                    android:textColor="#FFFFFF" />
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <!-- DATE FIELD -->
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/tilDate"
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dp"
+                android:hint="Date"
+                app:boxStrokeColor="@color/primary"
+                app:hintTextColor="@color/primary_light">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/etExtractedDate"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="text"
+                    android:textColor="#FFFFFF" />
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <!-- GSTIN FIELD -->
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/tilGst"
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dp"
+                android:hint="GSTIN / Tax No."
+                app:boxStrokeColor="@color/primary"
+                app:hintTextColor="@color/primary_light">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/etExtractedGst"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="textCapCharacters"
+                    android:textColor="#FFFFFF" />
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <!-- LINE ITEMS PREVIEW -->
+            <TextView
+                android:id="@+id/tvLineItemsHeader"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:text="Detected Line Items"
+                android:textColor="#9E9EB5"
+                android:textSize="13sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tvLineItems"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="6dp"
+                android:background="@color/dark_surface_variant"
+                android:padding="12dp"
+                android:textColor="@color/dark_on_surface"
+                android:textSize="12sp"
+                android:text="No line items detected" />
+
+            <!-- ACTION BUTTONS -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="24dp"
+                android:layout_marginBottom="32dp"
+                android:orientation="horizontal">
+
+                <com.google.android.material.button.MaterialButton
+                    android:id="@+id/btnRetake"
+                    style="@style/Widget.Material3.Button.OutlinedButton"
+                    android:layout_width="0dp"
+                    android:layout_height="52dp"
+                    android:layout_marginEnd="8dp"
+                    android:layout_weight="1"
+                    android:text="@string/retake"
+                    android:textColor="#FFFFFF"
+                    app:strokeColor="@color/primary" />
+
+                <com.google.android.material.button.MaterialButton
+                    android:id="@+id/btnUseDetails"
+                    style="@style/Widget.Material3.Button"
+                    android:layout_width="0dp"
+                    android:layout_height="52dp"
+                    android:layout_marginStart="8dp"
+                    android:layout_weight="1"
+                    android:backgroundTint="@color/primary"
+                    android:text="Use Details"
+                    android:textColor="#FFFFFF" />
+            </LinearLayout>
+
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

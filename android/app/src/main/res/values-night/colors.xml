@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Google Stitch Dark Mode Design Palette (Obsidian & High-Voltage Neon Emerald FinTech) -->
+    <color name="primary">#50FFAF</color>
+    <color name="primary_dark">#00E293</color>
+    <color name="primary_light">#79FFC2</color>
+    <color name="primary_alpha">#2650FFAF</color>
+    <color name="primary_container">#182033</color>
+    <color name="on_primary">#002111</color>
+    <color name="on_primary_container">#50FFAF</color>
+    <color name="primary_fixed">#50FFAF</color>
+    <color name="primary_fixed_dim">#00E293</color>
+
+    <!-- Secondary - Mint Accent & Cyan Glow -->
+    <color name="secondary">#4EDEA3</color>
+    <color name="secondary_dark">#00A572</color>
+    <color name="secondary_light">#45DFDF</color>
+    <color name="secondary_container">#1C263D</color>
+    <color name="secondary_fixed">#202A42</color>
+    <color name="secondary_fixed_dim">#182033</color>
+    <color name="on_secondary">#002111</color>
+    <color name="on_secondary_container">#4EDEA3</color>
+    <color name="on_secondary_fixed">#CDFFDE</color>
+
+    <!-- Tertiary - Cyan Accent -->
+    <color name="tertiary">#45DFDF</color>
+    <color name="tertiary_container">#102833</color>
+    <color name="tertiary_fixed">#1C263D</color>
+    <color name="tertiary_fixed_dim">#182033</color>
+    <color name="on_tertiary">#002111</color>
+    <color name="on_tertiary_fixed">#45DFDF</color>
+
+    <!-- Background & Surface - Obsidian Space Navy -->
+    <color name="background">#090D19</color>
+    <color name="surface">#131929</color>
+    <color name="surface_variant">#0D1322</color>
+    <color name="surface_container">#182033</color>
+    <color name="surface_container_low">#0D1322</color>
+    <color name="surface_container_high">#202A42</color>
+    <color name="surface_container_highest">#25324D</color>
+    <color name="outline">#1C263D</color>
+    <color name="divider">#1C263D</color>
+
+    <!-- Error - Neon Coral -->
+    <color name="error">#FF7582</color>
+    <color name="error_container">#3D1519</color>
+    <color name="on_error">#FFFFFF</color>
+    <color name="on_error_container">#FFDAD6</color>
+
+    <!-- Success / Warning / Info -->
+    <color name="success">#50FFAF</color>
+    <color name="success_container">#0E3824</color>
+    <color name="warning">#FFB84D</color>
+    <color name="warning_container">#38260E</color>
+    <color name="info">#45DFDF</color>
+    <color name="info_container">#0E2E38</color>
+
+    <!-- Text Typography - Crisp White & Cool Slate Gray -->
+    <color name="text_primary">#F1F4FB</color>
+    <color name="text_secondary">#93A1B8</color>
+    <color name="text_hint">#67778F</color>
+    <color name="text_on_primary">#002111</color>
+
+    <!-- Category Colors in Dark Mode -->
+    <color name="cat_food">#45DFDF</color>
+    <color name="cat_grocery">#50FFAF</color>
+    <color name="cat_shopping">#BF77FF</color>
+    <color name="cat_travel">#50FFAF</color>
+    <color name="cat_medical">#FF7582</color>
+    <color name="cat_education">#FFB84D</color>
+    <color name="cat_entertainment">#FF6699</color>
+    <color name="cat_bills">#66B3FF</color>
+    <color name="cat_fuel">#D99B73</color>
+    <color name="cat_others">#93A1B8</color>
+
+    <!-- Backwards Compatibility Aliases for Dark Mode -->
+    <color name="dark_background">#090D19</color>
+    <color name="dark_surface">#131929</color>
+    <color name="dark_surface_variant">#182033</color>
+    <color name="dark_primary">#50FFAF</color>
+    <color name="dark_on_surface">#F1F4FB</color>
+    <color name="dark_text_secondary">#93A1B8</color>
+    <color name="dark_text_hint">#67778F</color>
+    <color name="dark_outline">#1C263D</color>
+
+    <!-- Gradients -->
+    <color name="gradient_start">#121A2D</color>
+    <color name="gradient_end">#080D18</color>
+    <color name="gradient_card_start">#121A2D</color>
+    <color name="gradient_card_mid">#0D1424</color>
+    <color name="gradient_card_end">#080D18</color>
+
+    <!-- Overlays -->
+    <color name="scrim">#80000000</color>
+
+    <!-- Shorekeeper AI Chatbot Colors (Dark Mode - Exact original values preserved) -->
+    <color name="chat_header_title">#E8F3EF</color>
+    <color name="chat_header_subtitle">#10B981</color>
+    <color name="chat_drag_handle">#40E8F3EF</color>
+    <color name="chat_divider">#14B4DBCF</color>
+    <color name="chat_bot_bubble_bg">#182033</color>
+    <color name="chat_bot_bubble_stroke">#1C263D</color>
+    <color name="chat_chip_bg">#2653CFB1</color>
+    <color name="chat_chip_stroke">#4D53CFB1</color>
+    <color name="chat_chip_text">#E8F3EF</color>
+    <color name="chat_chip_bg_checked">#4053CFB1</color>
+    <color name="chat_chip_stroke_checked">#53CFB1</color>
+    <color name="chat_chip_text_checked">#E8F3EF</color>
+    <color name="chat_input_bg">#182033</color>
+    <color name="chat_input_stroke">#1C263D</color>
+    <color name="chat_input_text">#E8F3EF</color>
+    <color name="chat_input_hint">#829B95</color>
+    <color name="chat_close_btn_tint">#829B95</color>
+    <color name="chat_tts_btn_tint">#53CFB1</color>
+    <color name="chat_action_btn_bg">#50FFAF</color>
+    <color name="chat_action_btn_tint">#FFFFFF</color>
+
+    <!-- White / Black -->
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+    <color name="transparent">#00000000</color>
+</resources>

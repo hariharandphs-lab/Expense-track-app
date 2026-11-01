@@ -1,0 +1,356 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    android:background="@drawable/bg_gradient_splash">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        <!-- ── Top Branding & Logo Header ── -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:orientation="vertical"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="20dp">
+
+            <com.google.android.material.card.MaterialCardView
+                android:layout_width="68dp"
+                android:layout_height="68dp"
+                app:cardCornerRadius="20dp"
+                app:cardElevation="8dp"
+                app:strokeWidth="1.5dp"
+                app:strokeColor="#3353CFB1"
+                app:cardBackgroundColor="@color/dark_surface">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/app_logo"
+                    android:scaleType="centerCrop"
+                    android:contentDescription="@string/app_name" />
+            </com.google.android.material.card.MaterialCardView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Smart Expense Tracker"
+                android:textColor="@color/white"
+                android:textSize="22sp"
+                android:textStyle="bold"
+                android:letterSpacing="-0.02"
+                android:layout_marginTop="12dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="AI-Powered Financial Intelligence"
+                android:textColor="@color/dark_text_secondary"
+                android:textSize="13sp"
+                android:layout_marginTop="2dp" />
+
+            <!-- Trust Badge -->
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center_vertical"
+                android:background="@drawable/bg_security_badge"
+                android:paddingStart="12dp"
+                android:paddingEnd="12dp"
+                android:paddingTop="4dp"
+                android:paddingBottom="4dp"
+                android:layout_marginTop="10dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="🔒 Bank-Grade Security &amp; AI Privacy"
+                    android:textColor="@color/primary_light"
+                    android:textSize="11sp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <!-- ── Centered Auth Card ── -->
+        <com.google.android.material.card.MaterialCardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cardCornerRadius="26dp"
+            app:cardElevation="10dp"
+            app:cardBackgroundColor="@color/surface"
+            app:strokeWidth="1dp"
+            app:strokeColor="@color/outline"
+            android:layout_marginBottom="16dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="24dp">
+
+                <!-- ── Mode Tabs (Sign In / Sign Up) ── -->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="44dp"
+                    android:orientation="horizontal"
+                    android:background="@drawable/bg_tab_container"
+                    android:padding="3dp"
+                    android:layout_marginBottom="20dp">
+
+                    <TextView
+                        android:id="@+id/tab_sign_in"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:text="@string/sign_in"
+                        android:textColor="@color/primary"
+                        android:textStyle="bold"
+                        android:textSize="13.5sp"
+                        android:background="@drawable/bg_auth_tab_active" />
+
+                    <TextView
+                        android:id="@+id/tab_sign_up"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:text="@string/sign_up"
+                        android:textColor="@color/text_secondary"
+                        android:textStyle="bold"
+                        android:textSize="13.5sp"
+                        android:background="@color/transparent" />
+                </LinearLayout>
+
+                <!-- Full Name Field (Sign Up Only) -->
+                <com.google.android.material.textfield.TextInputLayout
+                    android:id="@+id/til_full_name"
+                    style="@style/Widget.SmartExpense.TextInputLayout"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="12dp"
+                    android:hint="@string/full_name"
+                    android:visibility="gone"
+                    app:startIconDrawable="@drawable/ic_user_placeholder"
+                    app:startIconTint="@color/text_hint">
+
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:id="@+id/et_full_name"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:inputType="textPersonName|textCapWords"
+                        android:textSize="14sp" />
+                </com.google.android.material.textfield.TextInputLayout>
+
+                <!-- Email Field -->
+                <com.google.android.material.textfield.TextInputLayout
+                    android:id="@+id/til_email"
+                    style="@style/Widget.SmartExpense.TextInputLayout"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="12dp"
+                    android:hint="@string/email"
+                    app:startIconDrawable="@drawable/ic_email"
+                    app:startIconTint="@color/text_hint">
+
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:id="@+id/et_email"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:inputType="textEmailAddress"
+                        android:textSize="14sp" />
+                </com.google.android.material.textfield.TextInputLayout>
+
+                <!-- Password Field -->
+                <com.google.android.material.textfield.TextInputLayout
+                    android:id="@+id/til_password"
+                    style="@style/Widget.SmartExpense.TextInputLayout"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="6dp"
+                    android:hint="@string/password"
+                    app:startIconDrawable="@drawable/ic_lock"
+                    app:startIconTint="@color/text_hint"
+                    app:endIconMode="password_toggle">
+
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:id="@+id/et_password"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:inputType="textPassword"
+                        android:textSize="14sp" />
+                </com.google.android.material.textfield.TextInputLayout>
+
+                <!-- Confirm Password Field (Sign Up Only) -->
+                <com.google.android.material.textfield.TextInputLayout
+                    android:id="@+id/til_confirm_password"
+                    style="@style/Widget.SmartExpense.TextInputLayout"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="6dp"
+                    android:layout_marginBottom="6dp"
+                    android:hint="@string/confirm_password"
+                    android:visibility="gone"
+                    app:startIconDrawable="@drawable/ic_lock"
+                    app:startIconTint="@color/text_hint"
+                    app:endIconMode="password_toggle">
+
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:id="@+id/et_confirm_password"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:inputType="textPassword"
+                        android:textSize="14sp" />
+                </com.google.android.material.textfield.TextInputLayout>
+
+                <!-- Forgot Password Link -->
+                <TextView
+                    android:id="@+id/tv_forgot_password"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/forgot_password"
+                    android:textColor="@color/primary"
+                    android:layout_gravity="end"
+                    android:textSize="12.5sp"
+                    android:textStyle="bold"
+                    android:paddingTop="4dp"
+                    android:paddingBottom="12dp" />
+
+                <!-- Progress Bar -->
+                <ProgressBar
+                    android:id="@+id/progress_bar"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:visibility="gone"
+                    android:layout_marginBottom="10dp" />
+
+                <!-- Action Button (Sign In / Register) -->
+                <com.google.android.material.button.MaterialButton
+                    android:id="@+id/btn_login"
+                    style="@style/Widget.SmartExpense.Button.Primary"
+                    android:layout_width="match_parent"
+                    android:layout_height="52dp"
+                    android:text="@string/sign_in"
+                    android:textSize="15sp"
+                    android:textStyle="bold"
+                    app:cornerRadius="14dp"
+                    android:layout_marginBottom="12dp" />
+
+                <!-- Google Sign In Button -->
+                <com.google.android.material.button.MaterialButton
+                    android:id="@+id/btn_google_sign_in"
+                    style="@style/Widget.SmartExpense.Button.Outlined"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:text="Continue with Google"
+                    app:icon="@drawable/ic_google"
+                    app:iconGravity="textStart"
+                    app:iconPadding="10dp"
+                    android:textColor="@color/text_primary"
+                    app:strokeColor="@color/outline"
+                    android:textSize="14sp"
+                    android:layout_marginBottom="14dp" />
+
+                <!-- "or" Divider -->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:gravity="center_vertical"
+                    android:layout_marginBottom="14dp">
+
+                    <View
+                        android:layout_width="0dp"
+                        android:layout_height="1dp"
+                        android:layout_weight="1"
+                        android:background="@color/divider" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="or"
+                        android:textColor="@color/text_secondary"
+                        android:textSize="12sp"
+                        android:paddingStart="12dp"
+                        android:paddingEnd="12dp" />
+
+                    <View
+                        android:layout_width="0dp"
+                        android:layout_height="1dp"
+                        android:layout_weight="1"
+                        android:background="@color/divider" />
+                </LinearLayout>
+
+                <!-- Demo Mode Button -->
+                <com.google.android.material.button.MaterialButton
+                    android:id="@+id/btn_demo_mode"
+                    style="@style/Widget.SmartExpense.Button.Outlined"
+                    android:layout_width="match_parent"
+                    android:layout_height="48dp"
+                    android:text="⚡ Continue as Demo (No sign-in)"
+                    android:textColor="@color/primary"
+                    app:strokeColor="@color/primary"
+                    android:textStyle="bold"
+                    android:textSize="13sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Explore full offline features · SMS tracking · Local AI"
+                    android:textColor="@color/text_hint"
+                    android:textSize="11sp"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="6dp"
+                    android:layout_marginBottom="12dp" />
+
+                <!-- Bottom Link Toggle -->
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_gravity="center_horizontal"
+                    android:gravity="center">
+
+                    <TextView
+                        android:id="@+id/tv_footer_prompt"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/dont_have_account"
+                        android:textColor="@color/text_secondary"
+                        android:textSize="13sp" />
+
+                    <TextView
+                        android:id="@+id/tv_register"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/sign_up"
+                        android:textColor="@color/primary"
+                        android:textStyle="bold"
+                        android:textSize="13sp"
+                        android:paddingStart="4dp" />
+                </LinearLayout>
+
+            </LinearLayout>
+        </com.google.android.material.card.MaterialCardView>
+
+        <!-- Terms & Privacy Footer -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Protected by Firebase Authentication &amp; TLS 1.3"
+            android:textColor="@color/dark_text_hint"
+            android:textSize="11sp"
+            android:layout_marginBottom="8dp" />
+
+    </LinearLayout>
+</ScrollView>

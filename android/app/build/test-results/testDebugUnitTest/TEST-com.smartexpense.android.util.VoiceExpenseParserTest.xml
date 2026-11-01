@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.smartexpense.android.util.VoiceExpenseParserTest" tests="7" skipped="0" failures="0" errors="0" timestamp="2026-10-25T16:43:11.395Z" hostname="DELL" time="0.015">
+  <properties/>
+  <testcase name="testTanglishVoiceParsing" classname="com.smartexpense.android.util.VoiceExpenseParserTest" time="0.001"/>
+  <testcase name="testTamilScriptVoiceParsing" classname="com.smartexpense.android.util.VoiceExpenseParserTest" time="0.001"/>
+  <testcase name="testEnglishVoiceParsing" classname="com.smartexpense.android.util.VoiceExpenseParserTest" time="0.001"/>
+  <testcase name="testExpenseAiEngineMultilingual" classname="com.smartexpense.android.util.VoiceExpenseParserTest" time="0.003"/>
+  <testcase name="testSmartCategorizerDirect" classname="com.smartexpense.android.util.VoiceExpenseParserTest" time="0.001"/>
+  <testcase name="testRegionalEntitiesVoiceAndCategorizer" classname="com.smartexpense.android.util.VoiceExpenseParserTest" time="0.002"/>
+  <testcase name="testAiEngineMedicineAndOpticsQueries" classname="com.smartexpense.android.util.VoiceExpenseParserTest" time="0.005"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

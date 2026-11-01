@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">AI স্মার্ট ব্যয় ট্র্যাকার</string>
+    <string name="app_tagline">স্মার্ট ব্যয়, ভালো সঞ্চয়</string>
+    <string name="login">লগ ইন</string>
+    <string name="register">নিবন্ধন</string>
+    <string name="email">ইমেইল</string>
+    <string name="password">পাসওয়ার্ড</string>
+    <string name="dashboard">ড্যাশবোর্ড</string>
+    <string name="total_expenses">মোট ব্যয়</string>
+    <string name="monthly_budget">মাসিক বাজেট</string>
+    <string name="remaining_budget">অবশিষ্ট বাজেট</string>
+    <string name="expenses">ব্যয়</string>
+    <string name="add_expense">ব্যয় যোগ করুন</string>
+    <string name="amount">পরিমাণ</string>
+    <string name="category">বিভাগ</string>
+    <string name="food">খাদ্য</string>
+    <string name="grocery">মুদিখানা</string>
+    <string name="shopping">কেনাকাটা</string>
+    <string name="travel">ভ্রমণ</string>
+    <string name="medical">চিকিৎসা</string>
+    <string name="education">শিক্ষা</string>
+    <string name="entertainment">বিনোদন</string>
+    <string name="bills">বিল</string>
+    <string name="fuel">জ্বালানি</string>
+    <string name="others">অন্যান্য</string>
+    <string name="budget">বাজেট</string>
+    <string name="reports">রিপোর্ট</string>
+    <string name="settings">সেটিংস</string>
+    <string name="language">ভাষা</string>
+    <string name="save">সংরক্ষণ</string>
+    <string name="cancel">বাতিল</string>
+    <string name="search">অনুসন্ধান</string>
+    <string name="logout">লগ আউট</string>
+    <string name="get_started">শুরু করুন</string>
+    <string name="currency_inr">₹</string>
+    <string name="loading">লোড হচ্ছে…</string>
+    <string name="error_network">ইন্টারনেট সংযোগ নেই</string>
+</resources>
